@@ -15,6 +15,18 @@
     </div>
   </div>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.getElementById('sidebar-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', () => {
+          document.documentElement.classList.toggle('collapsed-sidebar');
+          localStorage.setItem('sidebar-collapsed', document.documentElement.classList.contains('collapsed-sidebar'));
+        });
+      }
+    });
+  </script>
+
   {{ $themeJS := resources.Get "js/theme-toggle.js" | minify | fingerprint }}
   <script src="{{ $themeJS.RelPermalink }}" defer></script>
 </body>

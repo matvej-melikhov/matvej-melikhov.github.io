@@ -31,13 +31,16 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
         onload="renderMathInElement(document.body, { delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}] });"></script>
 
-<!-- Theme initialization (prevent FOUC) -->
+<!-- Theme and Sidebar initialization (prevent FOUC) -->
 <script>
   (function() {
     var t = localStorage.getItem('theme');
     var d = window.matchMedia('(prefers-color-scheme: dark)').matches;
     if (t === 'dark' || (!t && d)) {
       document.documentElement.classList.add('dark');
+    }
+    if (localStorage.getItem('sidebar-collapsed') === 'true') {
+      document.documentElement.classList.add('collapsed-sidebar');
     }
   })();
 </script>
