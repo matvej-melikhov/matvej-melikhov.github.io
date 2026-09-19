@@ -79,3 +79,6 @@ other = "Share"
 
 [hero_scroll]
 other = "Scroll to explore"
+
+[read_original_tg]
+other = "Read original post in Telegram ↗"

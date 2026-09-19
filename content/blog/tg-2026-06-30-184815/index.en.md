@@ -1,11 +1,11 @@
 ---
-title: "Моя первая статья в журнале"
+title: "My First Journal Paper"
 date: 2026-06-30T18:48:15
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/130"
 tg_media: ["/personal-site/images/posts/tg-2026-06-30-184815/photo_71@30-06-2026_18-48-15.jpg"]
 ---
 
-Недавно моя первая [статья](https://www.internauka.org/journal/stud/herald/402) вышла в журнальчике. По мотивам ВКР (отдельно расскажу, думаю).
+Recently, my first [paper](https://www.internauka.org/journal/stud/herald/402) was published in a journal. Based on my bachelor's thesis (I'll share more about that separately, I think).
 
-Не A*, конечно, но с чего-то нужно начать. Жаль при поступлении в магистратуру не поможет 😢
+Not an A*, of course, but you have to start somewhere. Too bad it won't help with master's program admissions 😢

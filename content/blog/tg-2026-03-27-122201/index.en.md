@@ -1,42 +1,42 @@
 ---
-title: "Послушал подкаст с Илоном Маском за вас"
+title: "I Listened to the Elon Musk Podcast So You Don't Have To"
 date: 2026-03-27T12:22:01
-tags: ["telegram", "интересное"]
+tags: ["telegram", "interesting"]
 tg_link: "https://t.me/moving_to_ds/96"
-tg_media: []
+tg_media: ["/personal-site/images/posts/tg-2026-03-27-122201/photo_50@27-03-2026_12-30-08.jpg", "/personal-site/images/posts/tg-2026-03-27-122201/photo_51@27-03-2026_12-30-08.jpg"]
 ---
 
-**🔳** **Послушал** [подкаст с Илоном Маском](https://www.youtube.com/watch?v=xuyXXQ0Uvnc) **за вас**
+I hadn't followed his work in a while and, honestly, thought he had lost his mind. But this conversation genuinely inspired me. The way he thinks, the ambitious (and seemingly impossible) goals he sets — it's impressive. All of his ventures are at the bleeding edge of tech:
 
-Давно не следил за его деятельностью и, честно говоря, думал, что он сошел с ума. Но эта беседа меня прям вдохновила. То, как он мыслит, какие амбициозные (и даже казалось бы невыполнимые) цели ставит – впечатляет. Все его проекты — передний край технологий:
+- SpaceX – reusable launch vehicles, the Starlink satellite constellation
+- Tesla – electric vehicle autonomy
+- Neuralink – brain-computer interfaces for people with disabilities
+- xAI – cutting-edge generative models (Grok)
 
-- SpaceX – многоразвые ракеты-носители, сеть спутников StarLink
-- Tesla – автопилот электрокар
-- NeuroLink – нейрочипы для людей с ограниченными возможностями
-- xAI – передовые генеративные модели (Grok)
+And those are just the ones I know about.
 
-И это только те, про которые знаю я.
+In this podcast, he talks about AI and once again amazes with the sheer scale of his ideas.
 
-В этом подкасте он говорит про ИИ и опять поражает масштабами идей.
+For example, he plans to build an orbital AI data center within 36 months, powered by solar arrays.
+If he pulls this off, xAI will have access to compute capacity unprecedented on Earth — we're talking **hundreds of gigawatts**.
 
-Например, он планирует за 36 месяцев построить орбитальный ИИ-датацентр и обеспечить его необходимой инфраструктурой, в частности электричеством – солнечными панелями.
-Если ему это удастся, то у xAI будет доступ к невиданным на земле мощностям — речь о **сотнях гигаватт**.
+— So SpaceX becomes a hyperscaler?
+— A hyper-hyperscaler.
 
-— То есть SpaceX станет гиперскейлером?
-— Гипер-гипер
+Then there are the Optimus humanoid robots being developed by Tesla. Musk sees infinite economic potential in them.
 
-Еще – гуманоидные роботы Optimus, которых разрабатывает Tesla. Маск видит в них бесконечный денежный потенциал.
+— Exponential growth in chip performance, exponential growth in AI capabilities, exponential growth in the robot fleet (robots manufacturing more robots) — a recursive multiplicative exponential.
 
-— Экспоненциальный рост производительности чипов, экспоненциальный рост ИИ-технологий, экспоненциальный рост числа роботов (роботы собирают новых роботов) – рекурсивная мультипликативная экспонента
+An army of AI robots orchestrated by Grok could handle any physical task: construction, research, etc.
 
-Армия ИИ-роботов и оркестратор в лице Grok смогут выполнять любые физические задачи: строительство, исследования, etc.
+He doesn't seem particularly worried about OpenAI and Anthropic dominating today's market. Their billions in revenue are just "rounding errors." A "human emulator," on the other hand, unlocks access to trillions of dollars, and SpaceX-Tesla-xAI are marching toward that.
 
-Он не сильно-то переживает, что OpenAI и Anthropic захватили рынок. Их миллиардные прибыли – лишь "погрешности округления". А "эмулятор человека" откроет доступ к триллионам долларов, и SpaceX-Tesla-xAI движутся к этому.
+### Why does he need trillions if he's already the richest person on Earth?
+All the money is ultimately needed for his Mars colonization program, and that takes immense capital. And a huge amount of technology.
+On the way to his ultimate goal, Musk basically solves a bunch of other problems along the ride, each of which is an extraordinary technological leap in its own right.
 
-**Зачем ему триллионы, если он и так самый богатый человек на земле?**
-Все деньги в конечном счете нужны на его программу по коллонизации Марса, и денег нужно очень много. И технологий тоже.
-Двигаясь к своей главной цели, Маск как бы по пути решает кучу других задач, и каждая из них в отдельности – уже невероятный технологический прорыв.
+In short, I'm simply impressed, so this might sound a bit grand. Then again, the grandiosity is well-earned — who else besides Elon Musk tackles problems of this magnitude? 🚬
 
-В общем, я просто под впечатлением, поэтому может немного пафосно звучать. С другой стороны, пафос здесь уместен, потому что кто если не Илон Маск может решать задачи такого уровня  🚬
+Highly recommend watching it.
 
-Всем советую к просмотру
+Two possible outcomes...

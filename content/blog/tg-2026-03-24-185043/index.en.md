@@ -1,13 +1,13 @@
 ---
-title: "Agents Week от ШАД"
+title: "Agents Week from YSDA"
 date: 2026-03-24T18:50:43
-tags: ["telegram", "анонсы"]
+tags: ["telegram", "announcements"]
 tg_link: "https://t.me/moving_to_ds/88"
-tg_media: ["/personal-site/images/posts/tg-2026-03-24-185043/photo_35@24-03-2026_18-50-43.jpg"]
+tg_media: []
 ---
 
-📕 С 6 по 10 апреля пройдет Agents Week от ШАД. Обещают лекции, воркшопы, панельные дискуссии. Мероприятие онлайн и бесплатное.нтские системы.
+📕 From April 6 to 10, YSDA is hosting Agents Week. They promise lectures, workshops, and panel discussions. The event is online and free.
 
-Обещают показать, как устроены современные агентные системы: от базового thought-action-observation и работы с инструментами до мультиагентных систем и продакшн подходов.
+They promise to break down how modern agentic systems work: from basic thought-action-observation loops and tool use to multi-agent systems and production-grade architectures.
 
-Даже самому хочется, интересно, что там расскажут – ШАД все-таки 😎
+I'm tempted to join myself; curious to see what they'll share — it's YSDA after all 😎

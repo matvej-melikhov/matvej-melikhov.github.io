@@ -1,66 +1,64 @@
 ---
-title: "📈  Рынок ML/DS 2026"
+title: "📈 The ML/DS Market in 2026"
 date: 2026-04-14T12:56:57
-tags: ["telegram", "рынок", "интересное"]
+tags: ["telegram", "market", "interesting"]
 tg_link: "https://t.me/moving_to_ds/120"
 tg_media: []
 ---
 
-📈  **Рынок ML/DS 2026**
+Some brief statistics based on a recent [study.](https://nareshka.ru/ml-research) You can check out the study's methodology and assess its reliability via the link if you're interested. Unfortunately, I haven't found more reliable sources, so if you know of any (recent ones), feel free to drop them in the comments – I'd appreciate it.
 
-Небольшая статистика по мотивам недавнего [исследования.](https://nareshka.ru/ml-research) По ссылке можно посмотреть процедуру исследования и оценить надежность, если кому интересно. К сожалению, более надежных источников не нашел, так что если такие есть (свежие), то можете скинуть в комменты – буду благодарен.
+### 👤 Candidate Profile
+- The average candidate is 28 years old (median: 26). P10 (10th percentile) is 22 years old, P90 is 37 years old.
+- 88.7% are men, 11.3% are women.
+- 56.6% are from Moscow.
 
-👤 **Портрет кандидата**
-- Средний кандидат – 28 лет (медиана – 26). P10 (десятый перцентиль) – 22 года, P90 – 37 лет.
-- 88.7% – мужчины, 11.3% – женщины
-- 56.6% – из Москвы
+### ⭐️ Education
+This is the most interesting part. Across the IT sector, ML/DS probably has the highest level of candidate education.
 
-⭐️ **Образование**
-Тут самое интересное. Из IT сектора, в ML/DS, наверное, самый высокий уровень образования кандидатов.
+- 97.1% of candidates hold a higher education degree (48.5% Bachelor's, 34.1% Master's, 8% Candidates of Sciences [Ph.D. equivalent], 0.3% Doctors of Sciences).
+- 2.9% have secondary or specialized secondary education.
 
-- 97.1% кандидатов имеют высшее образование (48.5% – бакалавры, 34.1% – магистры, 8% – кандидаты наук, 0.3% – доктора наук).
-- 2.9% – среднее или среднее специальное образование.
+- Top 5 universities among candidates (in descending order): HSE, ITMO, MIPT, MSU, Bauman MSTU.
 
-- Топ-5 университетов среди кандидатов (по убыванию кол-ва): ВШЭ, ИТМО, МФТИ, МГУ, Бауманка.
+- Leading majors: Applied Mathematics and Informatics (PMI), Informatics and Computer Engineering (IVT), and Software Engineering (PI).
 
-- По специальностям лидируют: ПМИ, ИВТ и ПИ.
+### 💼 Work Experience and Grades
+- The average candidate experience is 70 months (5.8 years), with a median of 51 months (4.25 years), of which 41 months (3.4 years) are in ML/DS.
+Unfortunately, there are no separate breakdown statistics by seniority grade 🙁
 
-💼 **Опыт работы и грейды**
-- Средний стаж кандидата – 70 месяцев (5.8 лет), медиана – 51 месяц (4.25 года), причем из них 41 месяц (3.4 года) – в ML/DS.
-К сожалению, нет отдельной статистики в разрезе грейда 🙁
+- Grade distribution: 47.9% – middle, 40.1% – senior, 9.6% – lead, 1.7% – junior, 0.7% – head.
 
-- Распределение по грейдам: 47.9% – middle, 40.1% – senior, 9.6% – lead, 1.7% – junior, 0.7% – head.
+### 🔍 Market Behavior
+- 67.9% – actively looking for a job
+- 24.5% – open to offers
+- 6% – not looking for a job
+- 1.6% – have an active offer in hand
 
-🔍 **Поведение на рынке**
-- 67.9% – в активном поиске
-- 24.5% – открыты к предложениям
-- 6% – не ищут работу
-- 1.6% – имеют оффер на руках
+### 🔨 Employers
+- 94.2% – in-house companies, 5.4% – outsourcing/agencies (sourcing candidates for client projects).
 
-🔨 **Работодатели**
-- 94.2% – непосредственно компании, 5.4% – аутсорсы (ищут кандидатов под проекты компании-закзачика).
+- Top 10 employers (by number of vacancies): Sber, Ozon, MTS, HeadHunter, Central Bank of Russia, Alfa-Bank, Yandex, Wildberries & Russ, Gazprombank.
 
-- Топ-10 работодателей (по числу вакансий): Сбер, Ozon, МТС, HeadHunter, ЦБ РФ, Альфа-Банк, Яндекс, Wildberries&Russ, Газпромбанк.
+### 📚 Job Openings
+- Distribution by domain: 44.5% – NLP/LLM, 24.8% – Classic ML, 12.7% – CV, 10.2% – MLOps, 5.7% – RecSys.
 
-📚 **Вакансии**
-- Распределение по доменам: 44.5% – NLP/LLM, 24.8% – ML Classic, 12.7% – CV, 10.2% – MLOps, 5.7% – RecSys.
+- By experience: 61.2% – 3–6 years, 23.4% – 1–3 years, 15% – 6+ years, 0.5% – no experience.
 
-- По опыту: 61.2% – 3-6 лет, 23.4% – 1-3 года, 15% – 6+ лет, 0.5% – без опыта.
+- By grade: 57.8% – senior, 28.6% – middle, 10.5% – lead, 2.8% – head, 0.3% – junior.
+A market imbalance is clearly visible here: middles are in surplus (almost 2x more candidates than openings), seniors are in shortage, heads are in high shortage. As for juniors, they aren't needed by anyone in the market anymore 😕
 
-- По грейдам: 57.8% – senior, 28.6% – middle, 10.5% – lead, 2.8% – head, 0.3% – junior.
-Тут видна проблема рынка: мидлы – в избытке (кандидатов почти в 2 раза больше, чем вакансий), сеньоры – в дефиците, хэды – в большом дефиците. Про джунов вообще молчу, они уже никому на рынке не нужны 😕
+### 🧭 Geography and Work Format
+- Vacancies by city: 69.3% – Moscow, the rest is roughly divided between St. Petersburg, Minsk, Almaty, Tashkent, and Astana.
 
-🧭 **География и формат**
-- Вакансии по городам: 69.3% – Москва, остальные +/- делятся между Спб, Минском, Алматы, Ташкентом и Астаной.
+- By format: 31% – on-site, 26.8% – hybrid, 24.3% – remote.
 
-- По формату: 31% – офис, 26.8% – гибрид, 24.3% – удаленка.
+### 📊 Market Balance
+Overall, the balance looks quite decent, especially compared to other IT fields.
 
-📊 Баланс рынка
-По балансу все в целом неплохо, особенно в сравнении с другими сферами IT.
+Number of vacancies per person: RecSys – 0.88, CV – 0.51, Classic ML – 0.74, NLP/LLM – 0.79, MLOps – 2.68.
 
-Количество вакансий на человека: RecSys – 0.88, CV – 0.51, ML Classic – 0.74, NLP/LLM – 0.79, MLOps – 2.68.
+It's clear there is a major shortage in MLOps. This is due to its specificity – a backend/DevOps background is required.
 
-Видно, что в MLOps большой дефицит. Из-за специфики – необходим backend/devops бэкграунд.
-
-👝 **Зарплаты**
-Тут, к сожалению, нормальной статистики нет, потому что и кандидаты и работодатели предпочитают скрывать ЗП и обсуждать ее уже на собеседованиях. Но, если интересно, можно посмотреть актуальные рейтинги на Хабр Карьера и getmatch.
+### 👝 Salaries
+Unfortunately, there are no solid statistics here, as both candidates and employers prefer to keep salaries confidential and negotiate them directly in interviews. However, if you're interested, you can check out the latest salary benchmarks on Habr Career and getmatch.

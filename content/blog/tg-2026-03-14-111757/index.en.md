@@ -6,13 +6,13 @@ tg_link: "https://t.me/moving_to_ds/70"
 tg_media: []
 ---
 
-**Немного про модель:**
-- 🌟Гибридная архитектура (Mamba + Transformer + MoE)
-- 🌟 Context window – 1 млн.
-- 🌟Thinking mode (полный, легкий, отключенный) 
-- 🌟По тестам лучше чем GPT-OSS-120B (по сути, прямой аналог от OpenAI)
-- 🌟Примерно на 10% больше throughput на GPU по сравнению с аналогами
+### A bit about the model:
+- 🌟 Hybrid architecture (Mamba + Transformer + MoE)
+- 🌟 Context window – 1M tokens
+- 🌟 Thinking mode (full, light, disabled)
+- 🌟 Benchmarks show it outperforms GPT-OSS-120B (essentially its direct counterpart from OpenAI)
+- 🌟 Roughly 10% higher GPU throughput compared to alternatives
 
-В декабре, кстати, уже выходила младшая модель [Nemotron-3-Nano-30B-A3B,](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16) а вот заключительную **Nemotron-3-Ultra** на 500B пока ждем.
+Back in December, by the way, the smaller model [Nemotron-3-Nano-30B-A3B](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16) was released, while the final 500B **Nemotron-3-Ultra** is still awaited.
 
-💫 К слову, вышедшие модели сейчас можно бесплатно использовать на OpenRouter ([Nano](https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free) и [Super](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free)).
+💫 By the way, the released models can currently be used for free on OpenRouter ([Nano](https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free) and [Super](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free)).

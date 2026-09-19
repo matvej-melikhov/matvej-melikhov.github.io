@@ -1,26 +1,28 @@
 ---
-title: "Весна 22 года, мне 18 лет, я ищу первую работу в IT 💻"
+title: "Spring 2022, I'm 18 years old, looking for my first job in IT 💻"
 date: 2025-08-31T20:56:23
-tags: ["telegram", "работа", "soft_skills"]
+tags: ["telegram", "work", "soft_skills"]
 tg_link: "https://t.me/moving_to_ds/25"
-tg_media: ["/personal-site/images/posts/tg-2025-08-31-205623/photo_10@01-09-2025_20-46-28.jpg"]
+tg_media: []
 ---
 
-Появляется возможность попасть в **стартап** через друга друга *на стажерскую позицию*. Я делаю резюме, расписываю pet-проекты, которыми когда-либо занимался. Надо сказать, опыт у меня был *весьма неоднородный*: дизайн, фронтенд, бекенд на питоне, боты тг, что-то с нейронками.
+An opportunity popped up to join a **startup** through a friend of a friend *for an intern position*. I put together a resume, listing all the pet projects I had ever worked on. Truth be told, my background was *quite eclectic*: design, frontend, Python backend, Telegram bots, some neural networks.
 
-Друг всячески меня презентует: мол, опыт хороший, за любую задачу возьмется, с технологиями какими, если нужно, разберется. 
-В общем, все круто – получаю апрув на собеседование с оунером 🎉
+My friend pitched me up enthusiastically: great hands-on experience, willing to tackle any challenge, can figure out any necessary technology on the fly.
+All in all, sounds awesome — I get approved for an interview with the founder 🎉
 
-Для меня это было первое собеседование в жизни, а так как человек я довольно тревожный, то я **запаниковал**:
-- 🌟у меня слабый бэкграунд  
-- 🌟как я буду заниматься задачами, которых никогда не делал?  
-- 🌟как я оправдаю чьи-то ожидания?  
-Меня еще никуда не взяли, а я уже испытал *"синдром самозванца".* Хотя, оглядываясь назад, понимаю, что абсолютно ничего страшного в той работе не было.
+It was the very first job interview of my life, and since I'm a rather anxious person, I **panicked**:
+- 🌟 my background is too weak  
+- 🌟 how can I handle tasks I've never done before?  
+- 🌟 how will I live up to someone's expectations?  
+I hadn't even been hired anywhere yet, and I was already experiencing *"imposter syndrome."* Looking back, though, I realize there was absolutely nothing daunting about that job.
 
-В итоге собеседование я успешно завалил, и получил очень короткий и *ценный* фидбек. <span class="tg-spoiler">🔺</span><span class="tg-spoiler">Мне не хватает уверенности в том, что я справлюсь с работой.</span>
+Needless to say, I completely bombed the interview and received very brief and *valuable* feedback:
 
-Какое-то время у меня ушло на то, чтобы переварить это и сделать для себя важные выводы:
-- 🌟Каким бы гениальным и универсальным специалистом я ни был, если я не умею презентовать себя другим (и даже самому себе) – я ничего не стою.  
-- 🌟Опыт и знания приобретаются достаточно естественно, а вот умение быть гибким, желание развиваться и добиваться поставленных целей, социальность, самодисциплина, уверенность в себе, лидерские качества – все это нужно развивать самостоятельно, и часто это сильно сложнее.  
+> I lacked confidence in my own ability to get the job done.
 
-А что думаете вы? Делитесь своим мнением, что важнее: **харды** –👍 или **софты** – 🩷
+It took me a while to digest that and draw some crucial conclusions:
+- 🌟 No matter how brilliant or versatile of a specialist I might be, if I can't present myself to others (or even to myself) — it's worth nothing.  
+- 🌟 Experience and hard skills are acquired naturally over time, but being adaptable, having the drive to grow and achieve goals, communication, self-discipline, confidence, and leadership qualities — all of these must be cultivated intentionally, and that's often far harder.  
+
+What do you think? Share your thoughts on what matters more: **hard skills** – 👍 or **soft skills** – 🩷

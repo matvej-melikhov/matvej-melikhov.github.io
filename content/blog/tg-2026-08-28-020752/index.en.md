@@ -1,17 +1,15 @@
 ---
-title: "Все, официально поступил в AI Talent Hub 🪩"
+title: "That's it, officially admitted to AI Talent Hub 🪩"
 date: 2026-08-28T02:07:52
-tags: ["telegram", "talenthub", "итмо"]
+tags: ["telegram", "talenthub", "itmo"]
 tg_link: "https://t.me/moving_to_ds/139"
 tg_media: []
 ---
 
-**Все, официально поступил в AI Talent Hub** 🪩
+Glad that everything turned out this way. Now, 2 years of study lie ahead. Studying again. On the one hand, I'd like to have more free time rather than constantly juggling work with something else. On the other hand, you realize that education is super important. Even from a purely pragmatic standpoint – the higher your degree, the higher your average earning potential. Education is still a social elevator.
 
-Рад, что все так вышло. Теперь впереди 2 года обучения. Снова учиться. С одной стороны хочется уже иметь больше свободного времени, а не постоянно совмещать работу с чем-то. Но с другой понимаешь, что образование – супер важная штука. Даже исключительно с прагматичной точки зрения – чем выше степень, тем больше в среднем можешь зарабатывать. Образование – все еще социальный лифт.
+I'm particularly glad that ITMO will (most likely) provide not just a diploma, but also a solid boost as a specialist. And, of course, great connections with the Hub's powerful community – which, as I understand it, is its main goal: uniting driven people under the **AI-first** banner.
 
-Особенно радует, что ИТМО (вероятнее всего) помимо "корочки" даст еще и хороший буст как специалиста. Ну и, конечно, крутые знакомства с мощным коммьюнити хаба – собственно в этом, как я понимаю, его главная задача – объединить заряженных ребят под брифом **AI-first**.
+I'm very pleased that studying here is convenient for those already working full-time, because classes are held **completely online** (even though formally it's considered full-time on-campus education) and in the evenings. The downside is that a working guy will still have to sacrifice some work-life balance, since the curriculum, as I expect, will be pretty intensive.
 
-Очень рад, что обучение тут удобное для тех, кто уже работает, потому что пары проходят **полностью онлайн** (хотя обучения формально очное) и в вечернее время. Минус в том, что простому работяге все равно придется жертвовать некоторым work-life balance, потому что обучение, как я ожидаю, будет довольно интенсивным.
-
-В общем, думаю описывать все буду все в красках, потому что сам сейчас под впечатлением. Все-таки снова первый курс. Уже с 1 сентября стартуем с недельного AI-хакатона, где будем решать реальные кейсы компаний. Думаю, будет интересно! 🚀
+All in all, I plan to document everything vividly, as I'm quite thrilled right now. After all, a freshman again. Starting September 1, we kick off with a week-long AI hackathon solving real corporate cases. I think it's going to be exciting! 🚀

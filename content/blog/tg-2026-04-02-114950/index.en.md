@@ -1,31 +1,29 @@
 ---
-title: "Плюсы и минусы работы в 💜💜💜💜"
+title: "Pros and Cons of Working at Wildberries"
 date: 2026-04-02T11:49:50
-tags: ["telegram", "wildberries", "работа"]
+tags: ["telegram", "wildberries", "work"]
 tg_link: "https://t.me/moving_to_ds/106"
 tg_media: []
 ---
 
-**Плюсы и минусы работы в 💜💜💜💜**
+I promised to share my feedback [after completing a full year of work](https://t.me/moving_to_ds/61).
 
-Обещал поделиться фидбеком по [прошествии года работы](https://t.me/moving_to_ds/61)
+### 👍 Pros:
 
-👍 Плюсы:
+- ✓ Above-market salary (ranked 5th on getmatch)
+- ✓ Fully remote (there is even an option to work from abroad), with the option to visit the office
+- ✓ Flexible schedule: easy to balance work with university studies. Subject to approval from your manager, of course
+- ✓ Extensive infrastructure for research, model training, and on-prem LLM deployment — plenty of GPU / CPU / RAM
+- ✓ Regular Performance Review cycles and fairly transparent promotion paths
+- ✓ Opportunity to speak at tech conferences representing the company
+- ✓ A team of professionals who are also genuinely pleasant people. At least in my case, I got lucky
+- ✓ Comfortable and conveniently located offices in Saint Petersburg
+- ✓ Reasonable number of meetings: mostly short standups / status updates. You don't end up unable to code due to endless chatter
 
-✓ ЗП выше рынка (5 место на getmatch)
-✓ Полная удаленка (и даже есть возможность работать из-за рубежа), с возможностью ходить в офис
-✓ Гибкий график: можно совмещать работу с учебой. Но тут, конечно, по согласованию с руководителем
-✓ Большие ресурсы для ресерча, обучения моделей, деплоя LLM в собственном контуре – много GPU/CPU/RAM
-✓ Регулярный процесс PR и довольно прозрачный рост
-✓ Возможность выступать на конференциях от компании
-✓ Команда профессионалов и просто приятные люди. По крайней мере, мне с этим повезло
-✓ Комфортные и удобные по расположению офисы в спб
-✓ Адекватное количество встреч: в основном короткие "по статусам". Нет такого, что не успеваешь поработать из-за постоянной болтовни
+### 👎 Cons:
 
-👎 **Минусы:**
-
-✗ Нет корпоративных макбуков. Это, кстати, очень неприятно, потому что приходится работать на леново, который не идет ни в какое сравнение и даже лагает 😭
-✗ Нет годовых премий
-✗ Нет нормальных бенефитов: даже нет подписки WB Клуба для работников или доп. скидок
-✗ Нет корпоративных мероприятий (или очень редкие и их не оплачивают)
-✗ Нет возможности поехать на конференцию от компании. По крайней мере, поездку на Highload мне согласовать не удалось (возможно, потому что билет стоит 100к 😬)
+- ✗ No corporate MacBooks. This is honestly quite frustrating because you have to work on a Lenovo, which simply doesn't compare and even lags 😭
+- ✗ No annual bonuses
+- ✗ No decent corporate perks: not even a WB Club subscription for employees or extra discounts
+- ✗ No corporate team events (or they are very rare and not company-sponsored)
+- ✗ No company-sponsored trips to conferences. At least for me, getting approval to attend HighLoad didn't work out (probably because the ticket costs 100k RUB 😬)

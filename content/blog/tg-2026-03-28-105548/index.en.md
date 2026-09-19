@@ -1,21 +1,21 @@
 ---
-title: "ML-хакатон от Wildberries & Russ"
+title: "ML Hackathon from Wildberries & Russ"
 date: 2026-03-28T10:55:48
-tags: ["telegram", "анонсы"]
+tags: ["telegram", "announcements"]
 tg_link: "https://t.me/moving_to_ds/99"
-tg_media: ["/personal-site/images/posts/tg-2026-03-28-105548/photo_52@28-03-2026_10-55-48.jpg", "/personal-site/images/posts/tg-2026-03-28-105548/photo_53@28-03-2026_12-06-57.jpg", "/personal-site/images/posts/tg-2026-03-28-105548/photo_54@28-03-2026_12-06-57.jpg"]
+tg_media: ["/personal-site/images/posts/tg-2026-03-28-105548/photo_52@28-03-2026_10-55-48.jpg"]
 ---
 
-Там Wildberries & Russ [проводят ML-хакатон](https://wbspace.wb.ru/wildhack) с 25 марта по 13 апреля на собственной платформе. Соревнование по типу тех, что проходят на Kaggle. 
+Wildberries & Russ are [hosting an ML hackathon](https://wbspace.wb.ru/wildhack) from March 25 to April 13 on their own platform. A Kaggle-style competition. 
 
-Призовой фонд – **1 300 000 рублей**. Участвовать могут только студенты российских вузов. 
+Prize pool — **1,300,000 rubles**. Open only to students of Russian universities. 
 
-**Два трека:**
+**Two tracks:**
 
-- 🔵 **Командный**
-Разработка сервиса для автоматического вызова транспорта на склады. Полноценный сервис (backend + frontend + ML).
+- 🔵 **Team Track**
+Building a service to automate transport dispatching to warehouses. A complete end-to-end service (backend + frontend + ML).
 
-- 🔵 **Индивидуальный**
-Прогнозирование временных рядов – модель объёмов отгрузок со складов.
+- 🔵 **Individual Track**
+Time series forecasting — predicting shipment volumes from warehouses.
 
-Конечно, не мой профиль, но все равно думаю поучаствовать в индивидуальном соревновании. Как опыт сгодится  👉
+Definitely not my primary domain, but I'm still considering participating in the individual track. Good experience either way 👉

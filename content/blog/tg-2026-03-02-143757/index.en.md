@@ -1,30 +1,26 @@
 ---
 title: "OpenRouter 🎆"
 date: 2026-03-02T14:37:57
-tags: ["telegram", "полезное"]
+tags: ["telegram", "useful"]
 tg_link: "https://t.me/moving_to_ds/55"
 tg_media: ["/personal-site/images/posts/tg-2026-03-02-143757/photo_27@02-03-2026_14-37-57.jpg"]
 ---
 
-**OpenRouter** 🎆
+Most people have probably already heard of this service. I've known about it for a long time, but never really had the occasion to use it until recently.
+Honestly, it's an incredibly convenient tool.
 
-Наверное, очень многие, если не все, уже слышали про этот сервис. Я знал про него давно, но как-то не приходилось пользоваться.
-На самом деле, невероятно удобная вещь.
+Briefly, for anyone not yet in the loop: OpenRouter acts like a proxy between you and the APIs of various models:
 
-Коротко, если кто-то еще не знает: OpenRouter – как прокси, между вами и API различных моделей:
+`Request ➡️ OpenRouter ➡️ (Claude / ChatGPT / Gemini)`
 
-                                           ↗️ Claude
-Запрос ➡️ **OpenRouter** ➡️ ChatGPT
-                                           ↘️ Gemini
+- 🟢 The service provides a single JWT token allowing you to query any model in their catalog — and the selection is huge. From STT and LLMs to various photo/video generation models. Almost anything available via direct developer APIs is available here, plus community models hosted directly on their infrastructure.
 
-🟢Сервис дает единый JWT-токен, по которому вы можете работать с любой моделью, которая есть у них, а выбор у них очень большой. На выбор и модели STT и LLM, и различные модели для генерации фото/видео. Почти любые, которые доступны по API от разработчиков, доступны и тут, а помимо них еще и те, что развернуты ими.
+- 🟢 Best of all, there are free models you can use for study or testing (which is what I did for my thesis project), or connect as a copilot in your IDE.
 
-🟢Самое интересное, что есть и бесплатные модели, которые вы можете использовать для учебных целей или тестов (что я и делал для дипломной работы) или подключать их как copilot в IDE.
+- 🟢 Works from Russia without a VPN, which makes it even more convenient, since direct access to many models is blocked from Russia and acquiring API keys normally requires quite a hassle.
 
-🟢Работает без VPN из России, что делает сервис еще удобнее, потому что ко многим моделям из РФ доступа нет, и чтобы получить их API-токен нужно заморочиться.
+- 🟢 The markup compared to official provider pricing is minimal — virtually negligible.
 
-🟢Наценка в сравнении с оригинальным API минимальная. Не помню сколько, но знаю, что мизерная.
+- ❌ The only downside is **topping up your balance** if you want to use paid models. Unfortunately, paying with Russian bank cards is not supported. There are two workarounds: use international payment cards, or pay with crypto (e.g. via TrustWallet). That can be a bit of a friction point 😔
 
-❌ Единственная проблема – **пополнение баланса**. Это если захотите использовать платные модели. К сожалению, пополнение через российские карты невозможно. И тут 2 варианта: либо использовать зарубежные карты, либо крипто-кошелек, например, TrustWallet. Это и правда неприятно 😔
-
-- 🔵 Но есть российский аналог – [rus-gpt](https://rus-gpt.com/)[,](https://rus-gpt.com/) от коллеги из 💜💜💜💜. Сам не пользовался, но думаю, что flow примерно такой же, правда, скорее всего, чуть больше наценка. Так что выбирайте, что подойдет под вашу задачу.
+- 🔵 However, there is a Russian alternative — [rus-gpt](https://rus-gpt.com/)[,](https://rus-gpt.com/) built by a colleague from Wildberries. I haven't personally used it, but I imagine the flow is quite similar, though the markup is likely slightly higher. Pick whichever fits your workflow best!

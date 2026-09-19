@@ -1,24 +1,22 @@
 ---
-title: "⚡️ 5 полезных функций pandas, которыми я часто ..."
+title: "⚡️ 5 useful pandas functions I use often..."
 date: 2025-09-17T19:55:51
 tags: ["telegram", "python", "pandas"]
 tg_link: "https://t.me/moving_to_ds/39"
 tg_media: ["/personal-site/images/posts/tg-2025-09-17-195551/photo_18@17-09-2025_19-55-51.jpg", "/personal-site/images/posts/tg-2025-09-17-195551/photo_19@17-09-2025_19-55-51.jpg", "/personal-site/images/posts/tg-2025-09-17-195551/photo_20@17-09-2025_19-55-52.jpg", "/personal-site/images/posts/tg-2025-09-17-195551/photo_21@17-09-2025_19-55-52.jpg", "/personal-site/images/posts/tg-2025-09-17-195551/photo_22@17-09-2025_19-55-52.jpg", "/personal-site/images/posts/tg-2025-09-17-195551/photo_23@17-09-2025_19-55-52.jpg"]
 ---
 
-⚡️ **5 полезных функций pandas, которыми я часто пользуюсь**
+### 🐼 .loc[lambda]
+Handy when you want to filter a dataframe "on the fly" within method chains — especially if conditions depend on the dataframe itself and you want to avoid creating intermediate variables. Pairs perfectly with `.assign()` for a clean functional style.
 
-🐼  **.loc[lambda]**
-Удобно, когда хочется фильтровать датафрейм «на лету» в цепочке из операций – особенно если условия зависят от самого датафрейма и не хочется создавать промежуточные переменные. Идеально сочетается с .assign() для чистого функционального стиля.
+### 🐼 df.explode()
+Allows you to "unpack" lists within columns into separate rows. I often use it in the sequence: `groupby` → filter groups → `explode`: for example, after aggregating into a list, returning each value as an individual row while retaining the group relationship.
 
-🐼  **df.explode()**
-Позволяет «развернуть» списки в колонках в отдельные строки. Обычно использую в сценарии groupby → фильтрация по группам → explode: например, чтобы после агрегации в список вернуть каждое значение в отдельной строке, сохранив связь с группой.
+### 🐼 df.query()
+Lets you filter rows using readable string expressions. A worthy alternative to `.loc` in straightforward cases — especially when you have many conditions and want to avoid cluttered parentheses and `&`/`|` operators. You can also reference environment variables and Python expressions using `@` and `engine='python'`.
 
-🐼  **df.query()**
-Позволяет выполнять фильтрацию с помощью строковых выражений. Достойная альтернатива .loc в простых случаях – особенно когда условий много и хочется избежать нагромождения скобок и &/|. Можно также использовать переменные и python-выражения – через @ и с engine='python'.
+### 🐼 df.assign()
+Enables creating new columns within method chains without mutating the original dataframe. Great for intermediate computations — e.g. when sequentially engineering features, normalizing, ranking, or calculating deviations while keeping code concise.
 
-🐼  **df.assign()**
-Позволяет создавать новые колонки в цепочке вызовов, не меняя исходный датафрейм. Удобно для промежуточных вычислений – например, когда нужно последовательно добавлять признаки, нормализовать, ранжировать или считать отклонения, сохраняя лаконичность кода.
-
-🐼  **.transform()**
-Применяет функцию к группам, но возвращает результат той же длины, что и исходный датафрейм – то есть каждая строка получает значение, вычисленное по её группе. Идеален для добавления средних, рангов или нормализаций «внутри группы».
+### 🐼 .transform()
+Applies a function across groups but returns an output matching the length of the original dataframe — meaning each row receives the value computed for its group. Perfect for adding group means, within-group ranks, or normalization.

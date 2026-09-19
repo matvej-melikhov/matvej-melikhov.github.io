@@ -1,11 +1,11 @@
 ---
-title: "Сравнение qwen3.5-моделей"
+title: "Comparing qwen3.5 models"
 date: 2026-03-03T16:28:15
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/57"
 tg_media: ["/personal-site/images/posts/tg-2026-03-03-162815/photo_28@03-03-2026_16-28-15.jpg", "/personal-site/images/posts/tg-2026-03-03-162815/photo_29@03-03-2026_16-28-15.jpg", "/personal-site/images/posts/tg-2026-03-03-162815/photo_30@03-03-2026_16-28-15.jpg", "/personal-site/images/posts/tg-2026-03-03-162815/photo_31@03-03-2026_16-28-15.jpg"]
 ---
 
-Впечатляет, что даже младшая модель (всего на 0.6B!) отлично строит предложения на русском, нет грамматических ошибок, иероглифов и английских слов.
+It's impressive that even the smallest model (just 0.6B!) structures Russian sentences so well, with zero grammatical issues, accidental Chinese characters, or leaked English words.
 
-Кажется, что отличные модели, как минимум для быстрой классификации/суммаризации, ну и конечно function calling'а
+They seem like great models, at the very least for fast classification and summarization, and naturally for function calling.

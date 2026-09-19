@@ -80,3 +80,6 @@ other = "Поделиться"
 
 [hero_scroll]
 other = "Листайте вниз"
+
+[read_original_tg]
+other = "Оригинал в Telegram ↗"

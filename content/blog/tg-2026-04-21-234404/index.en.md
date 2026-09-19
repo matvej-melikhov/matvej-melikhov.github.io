@@ -1,59 +1,57 @@
 ---
-title: "⭐️  Week News – новости мира AI за неделю (чуть..."
+title: "⭐️  Week News – AI News of the Week (a bit..."
 date: 2026-04-21T23:44:04
 tags: ["telegram", "week_news", "news"]
 tg_link: "https://t.me/moving_to_ds/122"
 tg_media: []
 ---
 
-⭐️  **Week News – новости мира AI за неделю** *(чуть с опозданием)*
+### ⬇️ Useful ⬇️
 
-**⬇️** **Полезное** **⬇️**
+- NVidia decided to provide free API access to a bunch of models. That includes top Qwen, DeepSeek, and Kimi models. Freebies aren't just on OpenRouter anymore.
 
-- NVidia решила бесплатно дать доступ к куче моделей по API. Там и топовые Qwen, Deepseek, Kimi. Теперь халява не только на OpenRouter.
+- Claude Code added Routines – instead of repeating the same routine actions, you can turn them into a repeatable pipeline that Claude can run automatically.
 
-- В Claude Code добавили Routines – вместо повторений одних и тех де "рутинных" действий, можно превратить их в повторяемый пайплайн, который Claude сможет запускать автоматически.
+- Someone released some kind of magical `claude.md` file that makes Claude Code shift its thinking and make fewer mistakes. It gathered 36k stars in 48 hours.
 
-- Выкатили какой-то магический файл claude.md, который заставляет Claude Code поменять мышление и меньше ошибаться. Собрал 36к звезд за 48 часов.
+- Anthropic launched Claude Design. It generates design mockups, prototypes, slides, and websites. Looks like Google's Stitch alternative. Figma shares dropped 11%.
 
-- Anthropic запустили Claude Design. Генерирует дизайн-макеты, прототипы, слайды, сайты. Похоже на аналог Stitch от Google. Акции Figma упали на 11%
+- Codex got an update. They added background execution: it can now click, type, and share the filesystem. Sounds like Claude Cowork to me, though I haven't used it.
 
-- Codex обновился. Добавили фоновую работу: теперь он может кликать, печатать, шарить файловую систему. По-моему, как и Claude Cowork, хотя не пользовался.
+- Gemini CLI (did anyone even know about it?) added subagents. By default, there are 3 agents: a generalist, a code analysis specialist, and a documentation specialist. You can also create your own. By the way, their CLI is worth trying out.
 
-- В Gemini CLI (кто-то вообще знал про нее?) добавили субагентов. По дефлоту есть 3 агента: универсал, специалист по анализу кода и специалист по документации. Можно создавать своих. Кстати, стоит попробовать их CLI.
+### ⬇️ Interesting ⬇️
 
-**⬇️** **Интересное** **⬇️**
+- Telegram added support for agent bots. Durov announced it himself in his channel. Given rumors about a collaboration with OpenClaw, something even more interesting might be in store for us.
 
-- В Telegram добавили поддержку ботов-агентов. Дуров сам написал в своем канале. Учитывая слухи про коллаборацию с OpenClaw, возможно нам ждет что-то еще более интересное.
+- White Circle ran a very amusing experiment evaluating model bias. Models are presented with several people of different nationalities, races, genders, etc., and asked to choose whom to save, for example, from a burning building. It turns out that absolutely all models have some biases. Fun facts: if you don't have a phone, your chance of survival drops by 2.7x; if you're Russian – 33% lower; if you're Black, you survive 17% more often.
 
-- White Circle провели очень забавный эксперимент по оценки предвзятости моделей. Модели дают нескольких людей разной национальности, расы, гендера и т.д. и просят выбрать, кого спасти, к примеру, из горящего здания. Оказалось, что абсолютно все модели имеют какие-то предрассудки. Из интересного: если у вас нет телефона, то шанс выжить в 2.7 раза меньше; если русский – на 33% меньше; если темнокожий, то чаще выживаете на 17%.
+- A platform emerged where AI agents collaboratively solve complex math problems. I think that's pretty interesting. Agents have already tackled 11 unsolved mathematical problems.
 
-- Появилась платформа, где ИИ-агенты совместно решают сложные математические задачи. Мне кажется, это довольно интересно. Агенты уже справились с 11 нерешенными математическими проблемами.
+- In a recent interview, Andrej Karpathy shared an interesting thought that the current bottleneck of AI is data quality. You can read more about it here.
 
-- Андрей Карпаты на недавнем интервью высказал интересную мысль, что узким местом ИИ сейчас является качество данных. Вот тут можно почитать подробнее.
+### ⬇️ New LLMs ⬇️
 
-**⬇️** **Новые LLM** **⬇️**
+- Anthropic Claude Opus 4.7 – steady 5–10% improvement on benchmarks. It has already claimed the honorable #1 spot on the LMArena leaderboard, surpassing its own 4.6 version. For some reason, they replaced the tokenizer, and now it consumes 35% more tokens.
 
-- Anthropic Claude Opus 4.7 – стабильный рост на 5-10% по бенчмаркам. В рейтинге LMArena уже занял почетное 1-е место, обойдя самого себя версии 4.6. Зачем-то заменили токенизатор и теперь потребляется на 35% больше токенов.
+- Alibaba Qwen3.6-35B-A3B – a VLM model showing very solid quality on agentic tasks, seemingly even on par with Claude Sonnet 4.5 in VLM tasks. Community enthusiasts, true to tradition, have already distilled Opus 4.6 reasoning into it.
 
-- Alibaba Qwen3.6-35B-A3B – VLM модель, показывает очень хорошее качество на агентских задачах, вроде как даже на уровне Claude Sonnet 4.5 в VLM-задачах. Энтузиасты, по классике, уже дистилировали в нее рассуждения Opus 4.6.
+- Alibaba Qwen3.6-Max-Preview – currently closed-source, showing roughly a 10 percentage point quality improvement over the 3.6-Plus version. Already available on the website.
 
-- Alibaba Qwen3.6-Max-Preview – пока закрытая, показывает прирост качества примерно на 10 п.п. в сравнении с версией 3.6-Plus. Уже доступна на сайте.
+- MoonshotAI KIMI K2.6 – a new open-weights SOTA by metrics. Word is that the model managed to write an LLM inference engine in Zig all by itself (a very unusual choice), which turned out 20% faster than LM Studio.
 
-- MoonshotAI KIMI K2.6 – по метрикам новая SOTA среди открытых моделей. Говорят, что модель смогла сама написать инференс LLM на языке Zig (очень нестандартный выбор) и получилось на 20% быстрее, чем LM Studio.
+### ⬇️ Other New Models ⬇️
 
-**⬇️** **Другие новые модели** **⬇️**
+- NVidia Audio Flamingo Next – an open audio-language model that generates detailed text descriptions of audio recordings. Very solid model on benchmarks; you can read more about its architecture here.
 
-- NVidia Audio Flamingo Next – открытая аудио-языковая модель, генерирует подробные текстовые описания аудиозаписей. По бенчмаркам очень хорошая модель, тут можно почитать подробнее про архитектуру.
+- DeepMind Gemini 3.1 Flash TTS – a proprietary text-to-speech model. Added audio tags that allow flexible control over voice styles. Russian is supported. Ranked #2 on TTS Arena.
 
-- DeepMind Gemini 3.1 Flash TTS – закрытая модель генерации речи по тексту. Добавили audio tags, которыми можно гибко управлять стилем голоса. Поддерживается русский язык. На TTS Arena заняла 2-е место.
+- Baidu ERNIE-Image – a text-to-image model, along with distilled ERNIE-Image-Turbo.
 
-- Baidu ERNIE-Image – Text2Image модель и дистилированная ERNIE-Image-Turbo.
+- Midjourney 8.1 – added 2K generation, slightly improved performance, and reduced pricing.
 
-- Midjourney 8.1 – добавили генерацию 2К, чуть улучшили производительность и снизили цену.
+- OpenAI GPT-5.4-Cyber – a model designed for cybersecurity specialists. Access is semi-closed, available via a specialized program with verification. Still haven't figured out whether this is the "Claude Mythos from OpenAI" or not. I thought they were talking about Spud.
 
-- OpenAI GPT-5.4-Cyber – модель для специалистов по кибербезопасности. Доступ полузакрытый, по специальной программе с верификацией. Так и не понял, это тот самый "Claude Mythos от OpenAI" или нет. Вроде про Spud речь шла.
+- OpenAI Image 2 – rumored to be the best image generation model currently in existence. Excellent detail, generates high-quality screenshots and interfaces, with minimal hallucinations and artifacts. Available to everyone on the website.
 
-- OpenAI Image 2 – говорят, что лучшая модель генерации картинок из существующих. Отличная детализация, создание качественных скриншотов и интерфейсов, минимум галлюцинаций и артефактов. Открыта для всех на сайте.
-
-- OpenAI GPT‑Rosalind – модель для исследований в области билогии. Показала лучший SOTA-результат на биологических задачах.
+- OpenAI GPT‑Rosalind – a model for biological research. Achieved a new SOTA result on biology benchmarks.

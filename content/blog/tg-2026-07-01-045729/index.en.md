@@ -1,19 +1,17 @@
 ---
 title: "💎 Junior ML Contest"
 date: 2026-07-01T04:57:29
-tags: ["telegram", "ai_talent_hub", "jmlc", "итмо"]
+tags: ["telegram", "ai_talent_hub", "jmlc", "itmo"]
 tg_link: "https://t.me/moving_to_ds/131"
 tg_media: ["/personal-site/images/posts/tg-2026-07-01-045729/photo_72@01-07-2026_04-57-29.jpg"]
 ---
 
-💎 **Junior ML Contest**
+I applied to JMLC – one of the admission tracks for ITMO's [AI Talent Hub](https://ai.itmo.ru/).
 
-Подался на JMLC – один из треков поступления в [AI Talent Hub](https://ai.itmo.ru/) ИТМО.
+Talent Hub is the largest AI Master's program in Russia. Can you imagine: right on their website, Valeriy Babushkin himself is listed among the faculty/mentors. Of course, I have my doubts about his active day-to-day involvement in the program, but still.
 
-Talent Hub – это крупнейшая магистратура по искусственному интеллекту в России. Представляете, там на сайте, в составе преподавателей / кураторов числится сам Валерий Бабушкин. У меня конечно есть сомнения на счет его активного участия в программе, но все же.
+JMLC is held as a project defense before an evaluation committee. The project can be a startup, a bachelor's thesis, a work project, or a research paper. I'll be presenting how we implemented incentive ranking in the Wildberries shopping cart.
 
-JMLC проходит в формате защиты проекта перед комиссией. Проект может быть как стартапом, так и ВКР / рабочим проектом / исследовательской работой. Я рассказывать буду про то, как делали ранжирование стимулов в корзине 💜💜💜💜.
+If anyone is interested, you can apply via the [link](https://ai.itmo.ru/junior_ml_contest). Although that's already for the next wave – deadline July 20.
 
-Если кому-то интересно, то по [ссылке](https://ai.itmo.ru/junior_ml_contest) можно подать заявку на участие. Правда уже на следующую волну – до 20 июля.
-
-В общем, пожелайте удачи. Надеюсь, что все получится 🤞
+Anyway, wish me luck. Hope everything works out 🤞

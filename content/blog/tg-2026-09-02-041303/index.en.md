@@ -1,30 +1,28 @@
 ---
-title: "🔥 AI Talent Hub: день 1"
+title: "🔥 AI Talent Hub: Day 1"
 date: 2026-09-02T04:13:03
-tags: ["telegram", "talenthub", "итмо"]
+tags: ["telegram", "talenthub", "itmo"]
 tg_link: "https://t.me/moving_to_ds/140"
 tg_media: ["/personal-site/images/posts/tg-2026-09-02-041303/photo_77@02-09-2026_04-13-03.jpg", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3835.MP4", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3836.MP4", "/personal-site/images/posts/tg-2026-09-02-041303/photo_78@02-09-2026_04-13-03.jpg", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3829.MOV", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3830.MOV"]
 ---
 
-🔥 **AI Talent Hub: день 1**
+Today was an ultra-eventful day. First, today was the first time I actually stepped **inside** ITMO (beyond the admissions office), and I was completely blown away: after LETI, it feels like you've walked into MIT. Everything is brand new, modern, and stylish. It gives off strong American movie vibes, Silicon Valley, and Apple tech.
 
-Сегодня был мега насыщенный день. Во-первых, сегодня я впервые побывал **внутри** ИТМО (дальше приемной комиссии) и прямо ошалел: после ЛЭТИ ощущение будто попал в MIT. Все такое новое, современное, стильное. Веет запахом американских фильмов, кремниевой долиной и техникой apple.
+To start, Dmitry Botov (founder of AITH) gave his traditional talk on the specifics of the master's program, the study format, and what awaits us over the next two years. Then employers shared more details about the cases we'll be assigned to tomorrow. And after that came the best part – **networking**.
 
-Вначале Дмитрий Ботов (founder AITH) по традиции провел лекцию про особенности магистратуры, формат обучения и то, что нас ждет в ближайшие 2 года. Потом работодатели рассказали чуть подробнее про кейсы, на которые нас распределят уже завтра. А потом началось самое интересное – **нетворк**.
+Half of us stayed in our seats while the other half walked around, picking someone to sit with, and chatting for about 10 minutes to introduce ourselves:
+- Where are you from?
+- Where did you study?
+- Are you working? Where?
+- Why did you choose AITH?
+- *and anything else*
 
-Половина из нас сидели на местах, вторые – ходили выбирали к кому подсесть и просто общались около 10 минут, знакомились:
-- откуда ты?
-- где учился?
-- работаешь? а где?
-- почему выбрал aith?
-- *и что угодно еще*
+It was **unreal**, because everyone is super driven, very open, eager to connect – and that's primarily why they came here. It was a really valuable experience for me that will make connecting and mingling at events much easier going forward.
 
-Это было **нереально круто**, потому что все люди супер заряженные, очень открытые, все готовы идти на контакт и в первую очередь за этим сюда и пришли. Это был очень важный опыт для меня, который позволит в будущем проще контактировать с людьми и общаться/знакомиться на ивентах.
+Surprisingly, almost everyone I talked to already works. A lot of them at major tech companies: Yandex, X5, T-Bank, plenty from Sber.
 
-На удивление почти каждый, с кем разговаривал, работает. Очень многие в крупных компаниях: Яндекс, Х5, Т-Банк, много из Сбера.
+After networking, we took a break and met up again in the evening at the **AI Talent Bar**. A similar format – you just walk up to anyone and strike up a conversation, but in an informal setting with live music, cocktails, and appetizers. Awesome!
 
-После нетворка сделали перерыв и потом встретились уже вечером на **AI Talent Bar**. Формат примерно похожий – просто подходишь к кому угодно и заводишь разговор, только с добавлением неформальной обстановки, живого звука, коктейлей и закусок. Огонь!
+Today I talked to many people. With some, we might stay friends for a long time, who knows. In any case, the goal right now is to gather as many contacts as possible, and we'll see where it goes.
 
-За сегодняшний день пообщался со многими. С некоторыми возможно подружимся надолго, кто знает. В любом случае цель сейчас – собрать как можно больше контактов, а дальше будь, что будет.
-
-Завтра берем в работу кейсы и начинаем продуктивить!
+Tomorrow we pick up our cases and start being productive!

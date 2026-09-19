@@ -1,10 +1,10 @@
 <div class="lang-switch">
-  {{ $currentLang := .Language.Lang }}
-  {{- range .AllTranslations -}}
-    {{- if eq .Language.Lang $currentLang -}}
-      <a href="{{ .RelPermalink }}" class="active" aria-current="true">{{ .Language.Label }}</a>
-    {{- else -}}
-      <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}">{{ .Language.Label }}</a>
+  <select onchange="window.location.href=this.value" aria-label="Language selector">
+    {{ $currentLang := .Language.Lang }}
+    {{- range .AllTranslations -}}
+      <option value="{{ .RelPermalink }}" {{ if eq .Language.Lang $currentLang }}selected{{ end }}>
+        {{ .Language.Label }}
+      </option>
     {{- end -}}
-  {{- end -}}
+  </select>
 </div>

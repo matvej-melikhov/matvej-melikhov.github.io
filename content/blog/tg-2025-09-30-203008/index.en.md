@@ -6,55 +6,55 @@ tg_link: "https://t.me/moving_to_ds/46"
 tg_media: []
 ---
 
-У нас в 💜💜💜💜 недавно прошел плановый Performance Review. Расскажу, что это такое, почему это важно и стоит ли этого бояться.
+We recently had our scheduled Performance Review at Wildberries. Let me share what it is, why it matters, and whether it's something to be afraid of.
 
-ℹ️ **Performance Review** – это процесс оценки каждого сотрудника компании/отдела по множеству критериев:
-- 🔵 соответствие занимаемой должности;
-- 🔵 количество и качество реализованных проектов;
-- 🔵 вклад в развитие компании (часто в денежных метриках);
-- 🔵 навыки коммуникации и взаимодействия с коллегами;
-- 🔵 инициативность, ответственноcть, лидерские качества;
-- 🔵 Бонусом также могут учитываться выступления на конференциях, написание статей, посещение митапов, прохождение курсов повышения квалификации, менторство внутри компании и много чего еще.
+ℹ️ **Performance Review** is the process of evaluating each employee across multiple criteria:
+- 🔵 alignment with their current role;
+- 🔵 quantity and quality of delivered projects;
+- 🔵 business impact and value delivered to the company (often in financial metrics);
+- 🔵 communication skills and teamwork with colleagues;
+- 🔵 initiative, accountability, and leadership qualities;
+- 🔵 as a bonus, things like conference talks, writing articles, attending meetups, professional development courses, internal mentorship, and much more can also count.
 
-Это здоровая практика, которая проводится **регулярно** (раз в полгода-год) и имеет следующие цели:
-- ➡️ объективная оценка работы отдела, направления, команды и каждого отдельного сотрудника, не зависимо от того, разработчик это, продакт или тимлид;
-- ➡️ резюмирование ~~не~~достигнутых результатов;
-- ➡️ поиск точек роста и постановка индивидуальных целей развития;
-- ➡️ поощрение хорошо работающих сотрудников (премии, пересмотр грейда или заработной платы).
+It is a healthy practice held **regularly** (every six months or once a year) with several goals:
+- ➡️ objectively assessing the performance of departments, domains, teams, and individual contributors — whether engineer, product manager, or team lead;
+- ➡️ summarizing ~~un~~achieved goals;
+- ➡️ identifying growth areas and defining personal development roadmaps;
+- ➡️ rewarding high performers (bonuses, grade promotions, or salary increases).
 
-*Продолжение следует...*
+*To be continued...*
 
-❔ **Стоит ли этого бояться?**
-— **Нет**. Нормальный Performance Review не преследует цель оставить только лучших, а остальных сократить.
+### ❔ Should you be afraid of it?
+— **No**. A healthy Performance Review does not aim to keep only the top tier and lay off everyone else.
 
-Наоборот: это механизм, который способствует **профессиональному росту**, делает его прозрачным и непрерывным.
-Если вы уверенно успешно справлялись с задачами, проявляли инициативу в решении рабочих вопросов, приносили реальную пользу бизнесу, то PR отличная возможность заявить:
- 🗣 Я хочу повышения, потому что ...
+On the contrary: it is a framework that fosters **professional growth**, keeping it transparent and continuous.
+If you've been consistently doing great work, proactively solving work challenges, and delivering tangible value to the business, PR is the perfect opportunity to say:
+- 🗣 I'd like a promotion, because...
 
-Тут самое главное (помимо того, что нужно хорошо работать 😣) – это не стесняться гордо говорить о своих успехах, честно ~~(но тише)~~ о своих неудачах, а также о мотивации и готовности брать на себя бóльшую ответственность. Если, конечно, вы действительно к этому готовы.
+Here the most important thing (besides doing good work in the first place 😣) is not being shy about proudly highlighting your wins, being candid ~~(yet quieter)~~ about your failures, and demonstrating your drive and readiness to take on greater responsibility — provided you're genuinely ready for it.
 
-❔ **Могут ли по результатам PR уволить?**
-— **Да**. Статистику не знаю, но это бывает довольно редко и когда человек действительно не справляется со своими обязанностями. Обычно это видно и без всякого Performance Review.
+### ❔ Can you get fired as a result of a PR?
+— **Yes**. I don't know the exact stats, but it's quite rare and usually happens when someone genuinely cannot handle their responsibilities. Typically, that's evident even without a Performance Review.
 
-*Как понять, что человек перформит нормально и справляется со своей ролью — в следующем посте* ➡️
+*How to know if you're performing well and living up to your role — up next* ➡️
 
-Во время Performance Review ключевая метрика качества – это **бизнес-результаты**. Это не значит, что нужно ежеквартально катить какие-то крутые проекты, но важно, чтобы работа двигала продукт вперед и приносила измеримую пользу, пусть и на дистанции.
+During a Performance Review, the key metric of quality is **business outcomes**. That doesn't mean you need to ship massive blockbuster projects every single quarter, but it is essential that your work drives the product forward and brings measurable value, even over the long run.
 
- Что считается значимым результатом:
-- 🔵 **Запуск в прод** – подтвержденный эффект: рост CR, GMV, DAU и т.д.
-- 🔵 **Проведенный A/B тест** – даже «красный»: сам факт прохождения цикла «гипотеза → реализация → анализ» – это большая проделанная работа.
-- 🔵 **Глубокий ресерч, внутренние инструменты** – оценивать сложнее, потому что прямо сейчас могут не нести пользы, но потенциально приводить к крутым результатам.
+What counts as significant results:
+- 🔵 **Production deployment** — validated impact: uplift in CR, GMV, DAU, etc.
+- 🔵 **Completed A/B tests** — even "negative/flat" ones: going through the full cycle of "hypothesis → implementation → analysis" is a substantial accomplishment in itself.
+- 🔵 **Deep research and internal tooling** — harder to quantify immediately since they might not bring value overnight, but can potentially unlock massive results down the road.
 
-❔  **Как понять, что все нормально?**
-Бывает трудно оценивать себя и свою работу **объективно**. Поэтому нужна регулярная обратная связь от руководителя и коллег – для этого 1–1 встречи. На них можно попросить честно оценить свою работу, спросить, в правильном ли направлении ты движешься.
-Во-первых, это поможет удостовериться, что все действительно нормально. Во-вторых, покажет, что ты ответственно подходишь к своей работе и стараешься быть максимально гибким.
+### ❔ How do you know if you're doing well?
+Evaluating yourself and your output **objectively** can be hard. That's why regular feedback from your lead and peers is essential — which is what 1-on-1 meetings are for. You can ask for candid feedback on your work and make sure you're heading in the right direction.
+First, this reassures you that everything is indeed on track. Second, it demonstrates that you care deeply about your work and remain adaptable.
 
-❕  **Софты**
-Вообще я как-то уже писал, что, по моему мнению, софт-скиллы часто бывают важнее, чем хард-скиллы. И к ним также относятся банальные:
-- 🔵 вовремя приходить на встречи и не заставлять кого-либо ждать тебя
-- 🔵 не игноририровать в сообщениях
-- 🔵 проявлять инициативу, а не ждать, пока напрямую скажут что-то очевидное
-- 🔵 держать слово: пообещал сделать что-то сегодня – значит нужно успеть, либо предупредить, что не успеваешь, а не просто забить и уйти в отпуск
-- 🔵 и многие другие мелочи
+### ❕ Soft skills
+I've mentioned before that in my opinion, soft skills are often just as critical as hard skills, if not more so. They include basic habits:
+- 🔵 showing up to meetings on time and not keeping others waiting
+- 🔵 not leaving messages unacknowledged
+- 🔵 showing initiative rather than waiting to be told the obvious
+- 🔵 keeping your word: if you promised to finish something today, either get it done or give a heads-up if you can't make the deadline, instead of ghosting and heading off on vacation
+- 🔵 and many other small details
 
-Я думаю, что эти качества в процессе PR также учитываются, потому что обычно формат подразумевает сбор обратной связи от руководителей и коллег.
+I believe these qualities are also factored in during PR, as the process typically involves collecting 360 feedback from leads and teammates.

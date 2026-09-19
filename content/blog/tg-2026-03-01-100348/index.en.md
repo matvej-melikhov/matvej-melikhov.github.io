@@ -1,17 +1,16 @@
 ---
-title: "Всем привет! 👋"
+title: "Hello everyone! 👋"
 date: 2026-03-01T10:03:48
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/54"
 tg_media: []
 ---
 
-**Всем привет!** 👋
-Думали канал мертв, да? Ан нет
+Thought the channel was dead, didn't you? Think again!
 
-Надеюсь, что смогу регулярно вести блог и найти свой формат – тот, в котором мне действительно будет интересно писать. Честно говоря, до этого постил что-то без особого энтузиазма, поэтому и пропадало желание делать что-либо
+I hope I'll be able to blog regularly now and find my groove — a format I genuinely enjoy writing in. To be honest, previously I was posting without much enthusiasm, which is why the drive to do anything fizzled out.
 
-У меня все по-прежнему: люблю IT, безумно фанатею от современного ML. С момента нашего последнего "общения" удалось сменить жилье, и теперь могу работать в более комфортных условиях.
+Things are the same with me: still love IT, crazy passionate about modern ML. Since our last "chat", I managed to move to a new apartment, and now I can work in much more comfortable conditions.
 
-Кажется, что начало весны – лучшее время, чтобы что-то менять 🍀
-Проверим, насколько меня хватит на этот раз 🔋
+It feels like the start of spring is the best time for a fresh start 🍀
+Let's see how long I last this time around 🔋

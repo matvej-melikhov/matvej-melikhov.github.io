@@ -1,22 +1,22 @@
 ---
-title: "Год работы в Wildberries"
+title: "One year at Wildberries"
 date: 2026-03-04T12:20:27
-tags: ["telegram", "wildberries", "работа"]
+tags: ["telegram", "wildberries", "work"]
 tg_link: "https://t.me/moving_to_ds/61"
 tg_media: []
 ---
 
-Достаточно быстро пролетел, вроде только недавно испыталка была 😐
+It flew by pretty fast — feels like I just passed my probation period yesterday 😐
 
-**Что было за этот год:**
+### Highlights from this past year:
 
-- 1️⃣  Приходил в команду HML:NLP&RecSys, теперь – в HML:NLP&Speech (переименовали команду), причем изначально был в стриме RecSys, а теперь в NLP
-- 2️⃣  Поработал над разными задачами: рекомендации/ранжирование, исправление опечаток, AI-ассистенты/агентские системы
-- 3️⃣  Прокачал навыки работы с LLM/агентами и асинхронными сервисами
-- 4️⃣  Познакомился с большим количеством крутых людей (правда некоторых даже не видел через вебку, а тем более вживую)
-5️⃣  Застал один Performance Review, который прошел для меня довольно хорошо
-6️⃣  Проводил технические интервью (правда не в нашу команду)
-7️⃣  Начал читать статьи по NLP/LLM, стал чаще посещать коференции и смотреть доклады онлайн (даже читаем и смотрим с командой)
-8️⃣  Сходил в один небольшой отпуск летом. А остальной отпуск пока коплю до худших времен, все-таки впереди диплом
+- 1️⃣ Joined the HML:NLP&RecSys team, now renamed to HML:NLP&Speech; originally started in the RecSys stream, and transitioned to NLP
+- 2️⃣ Worked on a variety of problems: recommendations/ranking, typo correction, AI assistants / agentic systems
+- 3️⃣ Leveled up my skills with LLMs/agents and asynchronous microservices
+- 4️⃣ Met lots of great people (though I haven't even seen some on camera, let alone in person)
+- 5️⃣ Went through one Performance Review cycle, which went pretty well for me
+- 6️⃣ Conducted technical interviews (though for other teams)
+- 7️⃣ Started reading NLP/LLM research papers regularly, attending conferences more often, and watching talks online (we even read and watch together as a team)
+- 8️⃣ Took one short vacation in the summer. Saving the rest of my PTO for a rainy day, since thesis defense is right around the corner
 
-📐В общем и целом, я доволен текущим местом работы и выходить на рынок пока даже нет желания. Подробнее про плюсы и минусы работы в WB расскажу в отдельном посте
+📐 All in all, I'm happy with my current job and have zero urge to look at the job market right now. I'll share more details about the pros and cons of working at WB in a separate post!

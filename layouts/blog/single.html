@@ -3,16 +3,13 @@
   <a href="{{ .CurrentSection.RelPermalink }}" class="back-link">{{ T "back_to_list" }}</a>
 
   <header class="single-header">
-    <h1 class="section-title" style="font-size: 4rem; line-height: 1; margin-bottom: 2rem;">{{ .Title }}</h1>
-    <div class="post-meta" style="margin-bottom: 2rem; opacity: 1; font-size: 1rem; display: flex; align-items: center; gap: 1rem;">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <div class="post-meta" style="margin-bottom: 1rem; opacity: 1; font-size: 1rem; display: flex; align-items: center; gap: 1rem;">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006/01/02" }}</time>
-      {{ if .Params.tg_link }}
-        <a href="{{ .Params.tg_link }}" target="_blank" class="tg-badge">Original in Telegram ↗</a>
-      {{ end }}
     </div>
         {{ $blogUrl := (site.GetPage "section" "blog").RelPermalink }}
         {{ with .GetTerms "tags" }}
-          <div class="card-tags">
+          <div class="card-tags" style="margin-bottom: 1.5rem;">
             {{ range . }}
               <a href="{{ $blogUrl }}?tag={{ .LinkTitle | urlize }}" class="tag">{{ .LinkTitle }}</a>
             {{ end }}
@@ -20,9 +17,15 @@
         {{ end }}
   </header>
 
-  <div class="prose" style="margin-top: 3rem;">
+  <div class="prose" style="margin-top: 1.5rem;">
     {{ .Content }}
       {{ partial "tg-attachments.html" . }}
+      
+      {{ if .Params.tg_link }}
+        <div class="tg-footer-link" style="margin-top: 4rem; text-align: center;">
+          <a href="{{ .Params.tg_link }}" target="_blank" class="tg-badge" style="display: inline-flex; font-size: 1.1rem; padding: 0.75rem 1.5rem; box-shadow: 4px 4px 0 var(--border-color); background: var(--bg-alt);">{{ T "read_original_tg" }}</a>
+        </div>
+      {{ end }}
   </div>
 
   <!-- Post navigation -->

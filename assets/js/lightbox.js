@@ -89,4 +89,28 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'ArrowLeft') showMedia(currentIndex - 1);
     if (e.key === 'ArrowRight') showMedia(currentIndex + 1);
   });
+
+  // Touch Swipe Support
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  lightbox.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+  }, { passive: true });
+
+  lightbox.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  });
+
+  function handleSwipe() {
+    const diff = touchStartX - touchEndX;
+    if (Math.abs(diff) > 50) { // 50px threshold
+      if (diff > 0) {
+        showMedia(currentIndex + 1); // swiped left
+      } else {
+        showMedia(currentIndex - 1); // swiped right
+      }
+    }
+  }
 });

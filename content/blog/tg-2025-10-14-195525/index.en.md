@@ -1,17 +1,16 @@
 ---
-title: "Ozon & ODS проводят Data Halloween 🎃 в Питере 😮"
+title: "Ozon & ODS are hosting Data Halloween 🎃 in Saint Petersburg 😮"
 date: 2025-10-14T19:55:25
-tags: ["telegram", "анонсы"]
+tags: ["telegram", "announcements"]
 tg_link: "https://t.me/moving_to_ds/50"
 tg_media: []
 ---
 
-Ozon & ODS проводят **Data Halloween** 🎃 в Питере 😮
-Идете? <span class="tg-spoiler">Я – да, осталось придумать что-то с костюмом</span>
+Are you going? <span class="tg-spoiler">I am, just need to figure out a costume</span>
 
-**Доклады:**
-1. «Особенности развертывания S2T в Triton. Боли, подводные камни и лучшие практики»
-2. «MLOps для семантической сегментации спутниковых снимков»
-3. «Когда LLM выходит из могилы: как обеспечить надёжный инференс без сбоев и перерасхода ресурсов»
+### Talks:
+1. "Nuances of deploying S2T in Triton: pain points, pitfalls, and best practices"
+2. "MLOps for semantic segmentation of satellite imagery"
+3. "When an LLM rises from the grave: ensuring reliable inference without crashes or resource waste"
 
-🔗 Зарегистрироваться можно по [ссылке](https://ods.ai/events/halloween2025_spb). Места сильно ограничены!
+🔗 You can register via this [link](https://ods.ai/events/halloween2025_spb). Spots are very limited!

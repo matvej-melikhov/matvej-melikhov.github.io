@@ -1,28 +1,31 @@
 {{ define "main" }}
+<article class="single-page">
+  <div class="container">
+    {{ if and (not .Params.hidemeta) (not .Params.hide_meta) }}
+      <a href="{{ .Parent.RelPermalink }}" class="back-link">{{ T "back_to_list" }}</a>
+    {{ end }}
 
-<div class="section-header">
-  <h2 class="section-title">{{ T "latest_posts" }}</h2>
-</div>
-
-<div class="card-grid">
-  {{ $posts := where (where .Site.RegularPages "Section" "blog") "Language.Lang" .Language.Lang }}
-  {{ range first 6 $posts }}
-    <article class="card">
-      {{ $blogUrl := (site.GetPage "section" "blog").RelPermalink }}
-      {{ with .GetTerms "tags" }}
+    <header class="single-header">
+      <h1 class="section-title">{{ .Title }}</h1>
+      {{ if and (not .Params.hidemeta) (not .Params.hide_meta) }}
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        <span>·</span>
+        <span>{{ .ReadingTime }} {{ T "reading_time" .ReadingTime }}</span>
+      </div>
+      {{ end }}
+      
+      {{ with .Params.tags }}
         <div class="card-tags">
-          {{ range . }}<a href="{{ $blogUrl }}?tag={{ .LinkTitle | urlize }}" class="tag">{{ .LinkTitle }}</a>{{ end }}
+          {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
         </div>
       {{ end }}
-      <div class="post-meta">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006/01/02" }}</time>
-      </div>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      {{ with .Params.summary }}<p class="card-summary">{{ . }}</p>{{ end }}
-      <a href="{{ .RelPermalink }}" class="read-more">{{ T "read_more" }}</a>
-    </article>
-  {{ else }}
-    <div class="card"><h3 style="margin:0;">{{ T "no_posts" }}</h3></div>
-  {{ end }}
-</div>
+    </header>
+
+    <div class="prose">
+      {{ .Content }}
+      {{ partial "tg-attachments.html" . }}
+    </div>
+  </div>
+</article>
 {{ end }}

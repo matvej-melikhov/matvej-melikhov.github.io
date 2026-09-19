@@ -58,20 +58,20 @@ enableEmoji = true
       hero_cta = 'Explore my work'
 
     [[languages.en.menus.main]]
+      name = 'About'
+      url = '/'
+      weight = 10
+    [[languages.en.menus.main]]
       name = 'Blog'
       url = '/blog/'
-      weight = 10
+      weight = 20
     [[languages.en.menus.main]]
       name = 'Articles'
       url = '/articles/'
-      weight = 20
+      weight = 30
     [[languages.en.menus.main]]
       name = 'Meetups'
       url = '/meetups/'
-      weight = 30
-    [[languages.en.menus.main]]
-      name = 'About'
-      url = '/about/'
       weight = 40
 
   [languages.ru]
@@ -89,20 +89,20 @@ enableEmoji = true
       hero_cta = 'Смотреть работы'
 
     [[languages.ru.menus.main]]
+      name = 'Обо мне'
+      url = '/ru/'
+      weight = 10
+    [[languages.ru.menus.main]]
       name = 'Блог'
       url = '/ru/blog/'
-      weight = 10
+      weight = 20
     [[languages.ru.menus.main]]
       name = 'Статьи'
       url = '/ru/articles/'
-      weight = 20
+      weight = 30
     [[languages.ru.menus.main]]
       name = 'Митапы'
       url = '/ru/meetups/'
-      weight = 30
-    [[languages.ru.menus.main]]
-      name = 'Обо мне'
-      url = '/ru/about/'
       weight = 40
 
 # ------------------------------

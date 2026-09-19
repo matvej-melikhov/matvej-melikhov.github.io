@@ -1,23 +1,23 @@
 ---
-title: "Геймифицированный челлендж по ML/DS от Авито"
+title: "Gamified ML/DS Challenge from Avito"
 date: 2026-03-05T14:05:51
-tags: ["telegram", "анонсы"]
+tags: ["telegram", "announcements"]
 tg_link: "https://t.me/moving_to_ds/62"
 tg_media: ["/personal-site/images/posts/tg-2026-03-05-140551/photo_32@05-03-2026_14-05-51.jpg"]
 ---
 
-Тут Авито запустили [геймифицированный челлендж по ML/DS](https://dsgame.avito.tech/), где можно проверить знания, вспомнить основы и вроде даже повеселиться.
+Avito has launched a [gamified ML/DS challenge](https://dsgame.avito.tech/) where you can test your knowledge, refresh the basics, and actually have some fun.
 
-**Несколько уровней:**
+### Several levels:
 
-🚩 Базовые вопросы по Python и машинному обучению
+- 🚩 Basic questions on Python and machine learning
 
-- 2️⃣ Ситуационные задачи на основе реальных кейсов из жизни DS-команды
+- 2️⃣ Situational tasks based on real-world cases from the life of a DS team
 
-- 3️⃣ «Марио» – платформер в дата сайенсе. Чем лучше пройдёте уровень, тем больше подсказок получите для следующих этапов. 
+- 3️⃣ "Mario" — a data science platformer. The better you complete the level, the more hints you'll receive for the next stages. 
 
-- 4️⃣ Финальный этап – хардкор: сложные вопросы и развёрнутый кейс на выбор по одному из направлений
+- 4️⃣ The final stage is hardcore: tough questions and an in-depth case study of your choice in one of the tracks
 
-Челлендж выполнен в стиле комикса – визуально приятно, атмосфера как в старых RPG. 
+The challenge is styled like a comic book — visually pleasing, with a retro RPG atmosphere. 
 
-И ещё один приятный момент: если попасть в топ-5, до 20 марта можно получить бокс с мерчем Авито 🫴
+And another nice bonus: if you make it into the top 5 by March 20, you can win a box of Avito merch 🫴

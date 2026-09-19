@@ -1,19 +1,19 @@
 ---
-title: "Пишу диплом с помощью Claude Code"
+title: "Writing My Thesis with Claude Code"
 date: 2026-04-24T12:11:02
-tags: ["telegram", "диплом"]
+tags: ["telegram", "thesis"]
 tg_link: "https://t.me/moving_to_ds/124"
 tg_media: []
 ---
 
-Начал писать дипломную работу. Для черновиков использовал markdown-файлы в vscode, естественно чтобы пользоваться Claude Code. Я-то думал, ща как напишу диплом с клодом...
+I started writing my thesis. For drafts, I used markdown files in VS Code, naturally to take advantage of Claude Code. I honestly thought, "Man, I'm going to breeze through this thesis with Claude..."
 
-К моему удивлению, Claude **ужасно** работает с текстами. Пробовал, чтобы и сам генерировал и через скил humanizer, который более человечные тексты пишет – **результат отстойный**. Какой-то корявый текст что ли, не знаю, как объяснить.
+To my surprise, Claude is **terrible** at working with prose. I tried having it generate directly and through the humanizer skill, which is supposed to write more natural-sounding text – **the result is awful**. The phrasing is somehow clumsy and stiff; I don't even know how to describe it.
 
-Потом попробовал для генерации Grok. Небо и земля. Он оказывается такие тексты прекрасные пишет. Объемные, красивые. Да ИИ-шные, но я использую LLM в основном как инструмент для вдохновения, когда не получается самому нормальный текст написать. Так что в любом случае приходится все самому переписывать на человеческий язык.
+Then I tried Grok for generation. Night and day. It turns out it writes gorgeous prose. Rich, expressive, extensive. Sure, it still feels AI-generated, but I primarily use LLMs as an inspiration tool when I struggle to produce good text on my own. So I end up rewriting everything into human language myself anyway.
 
-Короче говоря, снова открыл для себя Grok. Часто видел в Threads, что его советуют именно для работы с текстом, теперь нашел для себя подтверждение.
+Long story short, I rediscovered Grok. I often saw people in Threads recommending it specifically for text writing, and now I've confirmed it for myself.
 
-А к Claude у меня в последнее время вообще много вопросов. Будто он и правда стал хуже работать (upd: там реально был баг с работой модели, уже пофиксили). Да еще и с последним обновлением до Opus 4.7 стал жрать больше токенов – вот это вообще неприятно.
+And as for Claude, I've had a lot of questions lately in general. It feels as if it genuinely started performing worse (upd: there really was a bug in the model's behavior, already fixed). Plus, with the latest update to Opus 4.7, it started devouring way more tokens – which is especially unpleasant.
 
-Как говорится, не клодом единым. Все еще разные LLM-ки – для разных задач.
+As they say, man does not live by Claude alone. Different LLMs remain suited for different tasks.

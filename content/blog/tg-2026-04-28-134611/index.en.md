@@ -1,60 +1,58 @@
 ---
-title: "⭐️ Week News – новости мира AI за неделю"
+title: "⭐️ Week News – AI News of the Week"
 date: 2026-04-28T13:46:11
 tags: ["telegram", "week_news", "news"]
 tg_link: "https://t.me/moving_to_ds/127"
 tg_media: []
 ---
 
-⭐️ **Week News – новости мира AI за неделю**
+### ⏹️ Anthropic ⏹️
+- Several people gained access to Claude Mythos simply by guessing the URL.
 
-⏹️ **Anthropic** **⏹️**
-- Несколько человек получили доступ к Claude Mythos, угадав URL.
+- Anthropic admitted that Claude Code's quality had been degraded over the past month due to several bugs. The issue has been fixed.
 
-- Anthropic признали, что последний месяц качество работы Claude Code было снижено из-за нескольких багов. Проблему пофиксили.
+- Anthropic is testing the removal of Claude Code from the $20 subscription. For now, it seems like an A/B test on a couple percent of new users, but a rollout to everyone is possible in the future.
 
-- Antropic тестируют исключение Claude Code из подписки за $20. Пока, по всей видимости, проводят A/B тест на паре процентов новых пользователей, но в будущем возможна раскатка на всех.
+- Claude Code added `/ultrareview` for finding issues in code before merging.
 
-- В Claude Code добавили /ultrareview для поиска проблем в коде перед мерджем.
+### ⏹️ Useful ⏹️
+- HeyGen released the HyperFrames project, which renders videos from HTML using agents. Agents write HTML/CSS/JS code, and the project is then converted into a video stream using specialized libraries.
 
-⏹️ **Полезное** ⏹️
-- HeyGen выпустили проект HyperFrames, который рендерит видео из HTML с использованием агентов. Агенты пишут код на HTML/CSS/JS, затем проект конвертируется в видеоряд с использованием специальных библиотек.
+- Ai2 introduced a new LLM pre-training approach: training domain experts separately and combining them into a single MoE model via a learned router. This method allows adding new capabilities to models without degrading old ones.
 
-- Ai2 представили новую идею претрейна LLM через обучение доменных экспертов по отдельности и объединение их в единую MoE-модель через обучаемый роутер. Метод позволяет добавлять в модели новые навыки, не ломая старые.
+- Alibaba shared that the fresh Qwen3.6-27B model is fine-tuned for agentic coding and outperforms the previous flagship Qwen3.5-397B-A17B across almost all coding benchmarks.
 
-- Alibaba поделились, что свежая модель Qwen3.6-27B заточена под агентный кодинг и обгоняет предыдущего флагмана Qwen3.5-397B-A17B почти по всем кодинг-бенчмаркам.
+- Yandex opened applications for the ML Academy Summer Campus – a free online school for beginner machine learning engineers.
 
-- Яндекс открывает набор в Летний кампус ML-академии – бесплатную онлайн-школу для начинающих специалистов по машинному обучению.
+- AvitoTech launched an ML hackathon. The task is predicting the most relevant listing (RecSys). Prize pool: 750,000 rubles.
 
-- AvitoTech запускает ML-хакатон. Задача – предсказание наиболее релевантного объявления (RecSys). Призовой фонд – 750 000 рублей.
+### ⏹️ Interesting ⏹️
+- The Musk–Altman trial has begun. This is the first lawsuit from Musk that actually reached the courtroom. In the suit, he claims the startup breached promises made to him and violated its charitable mission on multiple points. He seeks the return of assets, valuing his stake at $109 billion.
 
-⏹️ **Интересное** ⏹️
-- Начался судебный процесс Маска–Альтмана. Это первый иск от Маска, который дошел до суда. В иске он утверждает, что стартап нарушил данные ему обещания и по ряду пунктов нарушил свою благотворительную миссию. Он добивается возврата активов и оценил долю в 109 миллиардов долларов.
+- The US State Department accused Chinese startups (DeepSeek, MoonshotAI, MiniMax) of training their models by distilling American LLMs. The companies maintain they train on open and proprietary data.
 
-- Госдеп США обвиняет китайские стартапы (Deepseek, MoonshotAI, MiniMax) в обучении своих моделей через дистиляцию американских LLM. Компании утверждают, что обучаются на открытых и сосбственных данных.
+- A DeepMind researcher argued that machine consciousness is fundamentally impossible because computation is not a physical process – a logical error will inevitably arise. Not the first person to talk about the fundamental limitations of LLMs.
 
-- Исследователь из DeepMind высказал мысль о том, что сознание в ИИ невозможно принципиально, потому что вычисления не являются физическим процессом – всегда будет возникать логическая ошибка. Не первый человек, кто говорит об ограничениях LLM.
+### ⏹️ New LLMs ⏹️
+- OpenAI GPT-5.5 – a new SOTA model, outperforming the fresh Claude Opus 4.7 across nearly all benchmarks. The most expensive API access among LLMs: $5 / $30.
 
-⏹️ **Новые LLM** ⏹️
-- OpenAI GPT-5.5 – новая SOTA модель, превосходит почти по всем бенчмаркам свежий Claude Opus 4.7. Самый дорогой API-доступ среди LLM: $5 / $30.
+- DeepSeek V4 (Pro/Flash) – a new (open-weights) SOTA. In agentic coding and mathematics, it surpasses Opus 4.6 and GPT-5.4. It has already become famous for the oranges-and-kids meme.
+Features many architectural innovations, most notably cheap long context up to 1 million tokens. You can read more details in the paper.
+API is dirt cheap: Pro – $0.145 / $3.48, Flash – $0.028 / $0.28. In addition, almost immediately after release, the price for cached (reused context) tokens was reduced by 90%. Also, a 75% discount on the Pro tier is running until May 5.
 
-- Deepseek V4 (Pro/Flash) – новая (открытая) SOTA. В агентном кодинге и математике опережает Opus 4.6 и GPT-5.4. Уже прославился мемом про апельсины и детей.
-Много архитектурных нововведений, основное – дешевый длинный контекст в 1 млн. токенов. Подробнее можно прочитать в статье.
-API очень дешевый: Pro – $0.145 / $3.48, Flash – $0.028 / $0.28. Также почти сразу после релиза цену на кеш (повторно используемый контекст) снизили на 90%. Еще до 5 мая сделали скидку 75% на тариф Pro.
+- Ant Group Ling-2.6-1T – a proprietary model. Key highlight: "fast thinking" – it produces concise responses in terms of token usage while maintaining SOTA-level intelligence.
 
-- Ant Group Ling-2.6-1T – закрытая модель. Главная особенность – "быстрое мышление", выдает ответ экономно по токенам, при этом сохраняя SOTA-уровень интеллекта.
+- Xiaomi MiMo-V2.5-Pro – beta of a new proprietary model, available to try in their web studio.
 
-- Xiaomi MiMo-V2.5-Pro – бета новой закрытой модели, можно попробовать в веб-студии.
+- Hunyuan Hy3 – an open-source MoE model featuring hybrid reasoning. Reaches parity with top models on agentic benchmarks.
 
-- Hunyuan Hy3 – опенсорс модель MoE с гибридным мышлением. На агентских бенчмарках показывает паритет с топовыми моделями.
+### ⏹️ Other Models ⏹️
+- OpenAI Privacy Filter – an open-source model for detecting personal data in text. Suitable for local execution.
 
-⏹️ **Другие модели** ⏹️
-- OpenAI Privacy Filter – опенсорс модель для обнаружения персональных данных в тексте. Подходит для локального запуска.
+- Alibaba HappyHorse 1.0 – a SOTA video generation model outperforming competitors, including Seedance 2.0, Kling 3.0, and Veo 3. Yields natural footage, realistically respects physics and lighting, and can edit video. You can generate two 5-second clips for free.
 
-- Alibaba HappyHorse 1.0 – SOTA модель генерации видео, опережает конкурентов, включая Seedance 2.0, Kling 3.0, Veo 3. Выдает естественную картинку, реалистично учитывает физику и освещение, умеет редактировать видео. Бесплатно можно сгенерировать 2 ролика по 5 секунд.
+- Alibaba Qwen-Image-2.0-Pro – proprietary Text2Image model. Ranks 9th globally.
 
-- Alibaba Qwen-Image-2.0-Pro – закрытая модель Text2Image. В мировом рейтинге занимает 9 место.
+- Xiaomi OmniVoice – an open-source speech synthesis model. Clones a voice from a 3-second audio sample, supports over 600 languages, and generates 40x faster than real-time audio.
 
-- Xiaomi OmniVoice – опенсорс модель синтеза речи. Клонирует голос по трехсекундному референсу, поддерживает более 600 языков, генерирует в 40 раз быстрее реального времени аудио.
-
-- CLI Insanely Fast Whisper – опенсорс модель для транскрибации аудио. Можно запускать локально. Обрабатывает 150 минут аудио за ~100 секунд.
+- CLI Insanely Fast Whisper – an open-source audio transcription model. Can be run locally. Transcribes 150 minutes of audio in ~100 seconds.

@@ -6,7 +6,6 @@ tg_link: "https://t.me/moving_to_ds/140"
 tg_media: ["/personal-site/images/posts/tg-2026-09-02-041303/photo_77@02-09-2026_04-13-03.jpg", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3835.MP4", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3836.MP4", "/personal-site/images/posts/tg-2026-09-02-041303/photo_78@02-09-2026_04-13-03.jpg", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3829.MOV", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3830.MOV"]
 ---
 
-🔥 **AI Talent Hub: день 1**
 
 Сегодня был мега насыщенный день. Во-первых, сегодня я впервые побывал **внутри** ИТМО (дальше приемной комиссии) и прямо ошалел: после ЛЭТИ ощущение будто попал в MIT. Все такое новое, современное, стильное. Веет запахом американских фильмов, кремниевой долиной и техникой apple.
 

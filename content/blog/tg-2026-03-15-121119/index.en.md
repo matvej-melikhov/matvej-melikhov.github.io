@@ -1,24 +1,22 @@
 ---
-title: "⚡️ Полезные команды Git"
+title: "⚡️ Useful Git Commands"
 date: 2026-03-15T12:11:19
-tags: ["telegram", "полезное", "git"]
+tags: ["telegram", "useful", "git"]
 tg_link: "https://t.me/moving_to_ds/72"
 tg_media: ["/personal-site/images/posts/tg-2026-03-15-121119/photo_34@15-03-2026_12-11-19.jpg", "/personal-site/images/posts/tg-2026-03-15-121119/photo_35@15-03-2026_12-11-19.jpg", "/personal-site/images/posts/tg-2026-03-15-121119/photo_36@15-03-2026_12-11-19.jpg", "/personal-site/images/posts/tg-2026-03-15-121119/photo_37@15-03-2026_12-11-19.jpg", "/personal-site/images/posts/tg-2026-03-15-121119/photo_38@15-03-2026_12-11-19.jpg"]
 ---
 
-⚡️ **Полезные команды Git**
+- ✨ git stash / git stash pop
+When you need to temporarily shelve uncommitted changes to switch to another branch or work on a different task.
 
-✨ git stash / git stash pop
-Когда нужно временно убрать незакоммиченные изменения, чтобы переключиться на другую ветку или выполнить другую задачу.
+- ✨ git commit --amend
+When you need to modify or add to the most recent commit. 
 
-✨ git commit --amend
-Когда нужно изменить/дополнить последний коммит. 
+- ✨ git push --force
+When you need to force-push to the remote repository, overriding conflicts. Very commonly used after commit --amend. (Caution: you can overwrite other developers' commits if they have already pushed changes!)
 
-✨ git push --force
-Когда нужно принудительно запушить в удаленный репозиторий, игнорируя конфликты. Очень часто после commit --amend. (Можно удалить коммиты других разработчиков, если они уже запушили изменения!)
+- ✨ git reset --hard
+When you need to roll back the repository to a specified commit (changes HEAD, clears staging area, and discards changes in the working directory).
 
-✨ git reset --hard
-Когда нужно откатить репозиторий к указанному коммиту (меняется HEAD, очищается stage, удаляются изменения в рабочей папке).
-
-✨ git rebase -i
-Когда нужно переписать историю коммитов: объединить коммиты, удалить, изменить порядок.
+- ✨ git rebase -i
+When you need to rewrite commit history: squash commits, drop them, or reorder them.

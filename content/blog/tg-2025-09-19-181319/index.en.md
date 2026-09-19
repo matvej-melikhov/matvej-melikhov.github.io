@@ -1,12 +1,12 @@
 ---
-title: "Особенность работы с итераторами в Python"
+title: "A quirk when working with iterators in Python"
 date: 2025-09-19T18:13:19
 tags: ["telegram", "python"]
 tg_link: "https://t.me/moving_to_ds/45"
 tg_media: []
 ---
 
-❌  Вчера одна особенность Python заставила немного потупить, не понимая почему не работает код. Вот кусочек кода:
+❌ Yesterday, a Python quirk had me scratching my head for a bit, wondering why my code wasn't executing. Here's a snippet:
 ```python
 results = []
 
@@ -19,10 +19,10 @@ for (_, row), ratio in combs:
     features = row.features
     ...
 ```
-Я запускаю ячейку с циклом, а **ничего не происходит** — код моментально исполняется, как будто цикла никакого и нет и при этом синтаксических ошибок тоже. Тут можете подумать, в чем проблема, прежде чем открывать спойлер ⤵️
+I run the notebook cell with the loop, and **nothing happens** — the code finishes instantly, as if the loop didn't even exist, without any syntax errors either. Take a moment to think about what went wrong before checking the spoiler below ⤵️
 
-<span class="tg-spoiler">Минут 7 ломал голову, что не так, и потом дошло, что combs в данном случае — итератор, а итератор можно обойти только один раз, что я и сделал до цикла в iter_count = len(list(combs)). А дальше цикл пытался итерироваться по combs, не нашел ни одного элемента и благополучно завершился </span><span class="tg-spoiler">🙂</span><span class="tg-spoiler"></span>
-
-<span class="tg-spoiler">В моем случае просто можно было не использовать итератор, а создать из него список, что я потом и сделал, но не всегда целесообразно загружать все данные в память, хотя это уже совсем другая история  </span><span class="tg-spoiler">📖</span><span class="tg-spoiler"></span>
-
-<span class="tg-spoiler">Так что нужно быть начеку и помнить про особенности итераторов-генераторов, которые, кстати, очень часто спрашивают на собеседовании</span>
+> I spent about 7 minutes puzzling over what went wrong, and then it hit me: `combs` in this case is an iterator, and an iterator can only be consumed once! Which is exactly what I had done right before the loop with `iter_count = len(list(combs))`. After that, the loop attempted to iterate over `combs`, found zero remaining elements, and exited happily 🙂
+> 
+> In my case, I didn't actually need an iterator and could just turn it into a list right away (which is what I did afterwards). However, loading everything into memory isn't always viable — though that's a whole different story 📖
+> 
+> So keep your eyes peeled and remember how iterators and generators work — which, by the way, are asked about very frequently in interviews!

@@ -1,32 +1,30 @@
 ---
-title: "База для DS-специалиста  – математика 🧮"
+title: "The foundation for a DS specialist is mathematics 🧮"
 date: 2025-09-03T22:50:06
-tags: ["telegram", "для_начинающих", "математика"]
+tags: ["telegram", "for_beginners", "mathematics"]
 tg_link: "https://t.me/moving_to_ds/27"
 tg_media: []
 ---
 
-**База для DS-специалиста (часть 1) – математика** 🧮
+For a classic software engineer, foundational math is primarily what helps write efficient code: combinatorics, discrete math, graph theory. It is the basis for ~~Yandex interviews~~ algorithmic challenges and production optimization. But a Data Science specialist needs more specific domains of mathematics in addition to that.
 
-Для классического разработчика базовая математика – это в первую очередь то, что помогает писать эффективный код: комбинаторика, дискретная математика, теория графов. Это основа ~~собеса в яндекс~~ алгоритмических задач и оптимизации в продакшене. А вот DS-специалисту помимо этого нужны более специфичные знания.
+- 🔵 **Linear Algebra**
+It provides a formal way to describe operations on data — using vectors, matrices, and tensors.
+From linear regression to transformers, it's all matrix multiplications, space transformations, and projections. Without linear algebra, it's hard to understand why correlation "messes with" linear models, how dimensionality reduction in PCA works, or how collaborative filtering operates in recommender systems.
 
-- 🔵 **Линейная алгебра**
-Позволяет формально описывать операции над данными – через векторы, матрицы, тензоры.
-От линейной регрессии до трансформеров – везде умножение матриц, преобразования в пространствах, проекции. Без линейной алгебры трудно понять, почему корреляция "мешает" линейным моделям, как работает понижение размерности в PCA или коллаборативная фильтрация в рекомендательных системах.
+For an introduction, I highly recommend the brilliant series of videos — [Essence of linear algebra](https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&si=0gpIU72jZPH6eEsT) by 3Blue1Brown (dubbed in Russian as well). It builds very solid intuition; afterwards, you can dig into textbooks and dive deeper into topics that interest you.
 
-Для знакомства крайне рекомендую гениальную серию роликов – [Сущность линейной алгебры](https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&si=0gpIU72jZPH6eEsT) от 3Blue1Brown (есть дубляж на русском). Дает очень твердую интуицию, затем можно лезть в учебники, погружаться в интересующие темы.
+- 🔵 **Calculus (Mathematical Analysis)**
+Answers the question: "How do models learn?"
+All iterative learning boils down to optimizing a function over parameters, finding the minimum of a loss function. That means derivatives and gradient descent.
+You need calculus to understand how weights update, why a model "converges", and how to optimize billions of weights relatively cheaply. It's the mathematical machinery that makes model training possible and predictable.
 
-- 🔵 **Математический анализ**
-Отвечает на вопрос "как модели учатся?"
-Всё итеративное обучение – это оптимизация какой-то функции по каким-то параметрам, поиск минимума функции потерь. А значит — производные и градиентный спуск.
-Она нужна чтобы понимать, как меняются веса, почему модель "сходится" и как относительно дешево оптимизировать миллиарды весов. Это математический аппарат, который делает обучение возможным и предсказуемым.
+Here again, I recommend 3Blue1Brown's playlist — [Essence of calculus](https://youtube.com/playlist?list=PLVjLpKXnAGLVbrcJdDb0a2RS6MmRCgxJz&si=mcksjnQ6S51-VXcA) — for building great geometric intuition. Beyond that, there are plenty of classic calculus textbooks and university courses.
 
-Тут опять же рекомендую серию роликов на канале 3Blue1Brown – [Суть математического анализа](https://youtube.com/playlist?list=PLVjLpKXnAGLVbrcJdDb0a2RS6MmRCgxJz&si=mcksjnQ6S51-VXcA) – для хорошей интуиции. Ну а классических учебников, курсов по матану – достаточно.
+- 🔵 **Mathematical Statistics**
+Perhaps the most crucial branch, because almost everything in DS is built on statistics. Even AI "black boxes" are just statistical models.
+Statistics teaches you how to understand data: how it's distributed, what hypotheses can be tested, how to combat overfitting, and how much you can trust a model's outputs. It is essential for data analysts, ML engineers, and researchers alike — everyone who works with data and relies on scientific rigor rather than gut feeling.
 
-- 🔵 **Математическая статистика**
-Пожалуй, самый важный раздел, потому что почти всё в DS строится на статистике. И даже "чёрные ящики" с ИИ – всего лишь статистические модели.
-Статистика учит понимать данные: как они распределены, какие гипотезы можно проверить, как бороться с переобучением или насколько результатам модели можно доверять. Она нужна и аналитику, и ML-инженеру, и исследователю – всем кто работает с данными и полагается на науку, а не на интуицию.
+To get started, I can recommend the courses [Basics of Statistics – Part 1](https://stepik.org/course/76) and [Basics of Statistics – Part 2](https://stepik.org/course/524) on Stepik by Anatoly Karpov. They are quite introductory, so later you can move on to more comprehensive material — for instance, the book [Practical Statistics for Data Scientists](https://vk.com/wall-51126445_106998).
 
-Тут для начала могу порекомендовать курсы [Основы статистики – часть 1](https://stepik.org/course/76) и [Основы статистики – часть 2](https://stepik.org/course/524) на Stepik от Анатолия Карпова. Но они довольно поверхностные, поэтому потом можно перейти к более серьезному материалу – например, книге [Практическая статистика для специалистов](https://vk.com/wall-51126445_106998)
-
-Делитесь своими любимыми книгами/курсами по математике для DS, будет очень интересно узнать! 🙂
+Share your favorite books and courses on math for DS — I'd love to check them out! 🙂

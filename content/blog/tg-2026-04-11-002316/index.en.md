@@ -1,24 +1,22 @@
 ---
-title: "💗  Просмотр докладов и чтение статей"
+title: "💗 Watching Tech Talks and Reading Research Papers"
 date: 2026-04-11T00:23:16
-tags: ["telegram", "статьи", "работа"]
+tags: ["telegram", "articles", "work"]
 tg_link: "https://t.me/moving_to_ds/109"
 tg_media: []
 ---
 
-💗  **Просмотр докладов и чтение статей**
+I love so much that our team has 2 special recurring meetings...
 
-Мне так нравится, что в нашей команде есть 2 особенные встречи...
+Once a week, we either watch recent conference talks together or discuss ~~not so recent~~ research papers, having agreed on them in advance and reading them in our free time.
 
-Раз в неделю мы либо смотрим свежие доклады с конференций, либо обсуждаем ~~не очень свежие~~ статьи, заранее договариваясь какие и читая их в свободное время.
+This is a **completely** different experience. Reading on your own can feel tedious, and there's no one to talk through it with. And until you discuss it and articulate ideas out loud, you never really understand it thoroughly.
 
-Это – **совершенно** другой опыт. Одному читать лень, да и обсудить не с кем. А пока не обсудишь, не проговоришь вслух – так до конца и не разберешься.
+For example, recently my teammates and I realized that none of us truly had a deep grasp of how RLHF and RL in general actually work under the hood. Not surprising, given that reinforcement learning is still quite niche, and despite all the (justified) hype around alignment, the average data scientist rarely gets to touch it in day-to-day work tasks.
 
-Например, недавно с коллегами поняли, что никто из нас так до конца и не понимает, как именно работает RLHF и вообще RL. Не удивительно, потому что обучение с подкреплением все еще очень нишевая задача, и несмотря на хайп (к слову, оправданный) вокруг alignment'а, среднестатистическому DS'у в рабочих задачах применять его точно не приходится.
+So we decided to dedicate the next few weeks to a deep dive into Reinforcement Learning, specifically applied to LLMs.
+We've already watched an excellent talk by Igor Kotenkov on RLHF, and today we broke down the paper on Proximal Policy Optimization (PPO) — the very method OpenAI first used for alignment back with GPT-3.
 
-Таки решили, что следующие несколько недель посвятим погружению в Reinforcement Learning с приложением, в частности, к LLM.
-Уже посмотрели отличный доклад Игоря Котенкова про RLHF, а сегодня разбирали статью про Proximal Optimization Method (PPO) – тот самый, который впервые использовали OpenAI для alignment'а еще gpt-3.
+It is **incredibly interesting** to explore this field, and having the chance to discuss it with smart people makes it **doubly engaging**.
 
-**Невероятно интересно** изучать эту область, а когда есть возможность обсуждать это с умными людьми – **интересно вдвойне**.
-
-Так что всем советую предложить такую инициативу в своей команде. Вместе изучать новое проще и веселее.
+So I encourage everyone to propose a similar initiative in your team. Learning new things together is much easier and way more fun.

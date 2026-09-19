@@ -3,7 +3,7 @@ title: "Agents Week от ШАД"
 date: 2026-03-24T18:50:43
 tags: ["telegram", "анонсы"]
 tg_link: "https://t.me/moving_to_ds/88"
-tg_media: ["/personal-site/images/posts/tg-2026-03-24-185043/photo_35@24-03-2026_18-50-43.jpg"]
+tg_media: []
 ---
 
 📕 С 6 по 10 апреля пройдет Agents Week от ШАД. Обещают лекции, воркшопы, панельные дискуссии. Мероприятие онлайн и бесплатное.нтские системы.

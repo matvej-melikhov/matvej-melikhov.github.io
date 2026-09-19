@@ -7,8 +7,8 @@
 </div>
 
 <div class="container">
-  {{ if .Pages }}
-    <div class="card-grid">
+  <div class="card-grid">
+    {{ if .Pages }}
       {{ range .Pages }}
         <article class="card">
           {{ with .Params.tags }}
@@ -26,13 +26,12 @@
           <a href="{{ .RelPermalink }}" class="read-more">{{ T "read_more" }}</a>
         </article>
       {{ end }}
-    </div>
-  {{ else }}
-    <div class="coming-soon">
-      <div class="coming-soon-icon">📝</div>
-      <h2>{{ T "coming_soon" }}</h2>
-      <p>{{ T "coming_soon_desc" }}</p>
-    </div>
-  {{ end }}
+    {{ else }}
+      <div class="card">
+        <h2 style="margin-bottom:1rem;">{{ T "coming_soon" }}</h2>
+        <p>{{ T "coming_soon_desc" }}</p>
+      </div>
+    {{ end }}
+  </div>
 </div>
 {{ end }}

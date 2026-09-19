@@ -1,15 +1,15 @@
 ---
-title: "Anthropic убирает Claude Code из подписки"
+title: "Anthropic Is Removing Claude Code from Subscriptions"
 date: 2026-04-22T14:20:31
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/123"
 tg_media: ["/personal-site/images/posts/tg-2026-04-22-142031/photo_70@22-04-2026_14-20-31.jpg"]
 ---
 
-И оставить только за 100/200$. По крайней мере, такие тарифы отображаются у новых пользователей.
+And keeping it only at $100/$200. At least, these are the tiers displayed to new users.
 
-Непонятно, финальное это решение или какой-то стресс-тест аудитории. Но это прекрасная демонстрация того, как они пытаются экономить ресурсы. Не секрет, что с железом у них сейчас большие проблемы.
+It's unclear whether this is a final decision or some kind of audience stress-test. But it's a great demonstration of how they are trying to conserve resources. It's no secret that they're currently facing severe hardware bottlenecks.
 
-Забавно, что Codex на этом фоне показывает стремительный рост – у него есть и бесплатный тариф, и за 20$. Да, модели не Claude, но зато лимиты более щедрые. Альтман еще и сбросил недельные лимиты несколько раз, явно видит настрой людей относительно Claude и переманивает на свою сторону.
+It's funny that against this backdrop, Codex is showing rapid growth – it offers both a free tier and a $20 one. Sure, the models aren't Claude, but the limits are far more generous. Altman also reset weekly limits several times, clearly sensing the sentiment around Claude and winning people over.
 
-Если такая тенденция продолжится, то тоже задумаюсь над переходом в Codex, 100$ – уже перебор.
+If this trend continues, I might also consider switching to Codex – $100 is just too much.

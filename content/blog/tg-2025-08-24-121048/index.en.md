@@ -1,27 +1,27 @@
 ---
-title: "Привет! Меня зовут Матвей 👋"
+title: "Hi! My name is Matvey 👋"
 date: 2025-08-24T12:10:48
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/11"
 tg_media: []
 ---
 
-Привет! Меня зовут Матвей 👋
-Я – Data Scientist в команде Horizontal ML (NLP&RecSys) в 💜💜💜💜 и студент 4-го курса СПбГЭТУ "ЛЭТИ"
 
-**Что я делаю** **❓**
-🌓 На текущий момент занимаюсь задачами рекомендаций, ранжирования, классическими ML-решениями для интеграции в продукты WB
-🌓 Хожу на профессиональные конференции и расту как специалист
+I am a Data Scientist on the Horizontal ML (NLP & RecSys) team at Wildberries and a 4th-year student at Saint Petersburg Electrotechnical University "LETI".
 
-**Зачем этот канал** **❓**
-Мне нравится то, чем я занимаюсь. А еще мне нравится учиться новому, делиться накопленными знаниями с другими, обсуждать с единомышленниками интересные темы.
+### What I do ❓
+- 🌓 Currently, I work on recommendation and ranking tasks, as well as classical ML solutions for integration into WB products
+- 🌓 Attend industry conferences and continuously grow as a specialist
 
-🔥  **Уже скоро вы найдете**... 
+### Why this channel ❓
+I love what I do. And I also love learning new things, sharing accumulated knowledge with others, and discussing interesting topics with like-minded people.
 
-🟢 Истории о том, как устроена работа дата саентиста в крупной ИТ-компании
-🟢 Experience sharing по реальным кейсам DS/ML
-🟢 Полезные материалы и советы для тех, кто только вкатывается в ML, или просто интересуется этой сферой
-🟢 Анонсы классных митапов и конференций – чтобы не пропустить важное
-🟢 Мои мысли, инсайты и заметки – всё, что, по моему мнению, стоит обсудить
+### 🔥 Coming soon, you'll find...
 
-Если ты в теме DS, хочешь в неё погрузиться или просто любишь технологии – добро пожаловать!  🚀
+- 🟢 Stories about what it's like to work as a data scientist at a major tech company
+- 🟢 Experience sharing on real DS/ML use cases
+- 🟢 Useful resources and tips for those just breaking into ML or simply interested in the field
+- 🟢 Announcements of cool meetups and conferences — so you don't miss anything important
+- 🟢 My thoughts, insights, and notes — everything that I believe is worth discussing
+
+If you're into DS, want to dive into it, or just love tech — welcome aboard! 🚀

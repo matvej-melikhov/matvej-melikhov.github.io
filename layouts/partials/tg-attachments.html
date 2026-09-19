@@ -26,7 +26,18 @@
     {{ end }}
   {{ end }}
 
-  <div class="tg-collage tg-collage-{{ $count }}">
+  {{ $orientationClass := "" }}
+  {{ if $uniformRatio }}
+    {{ if gt $firstRatio 1100.0 }}
+      {{ $orientationClass = "tg-collage-wide" }}
+    {{ else if lt $firstRatio 900.0 }}
+      {{ $orientationClass = "tg-collage-tall" }}
+    {{ else }}
+      {{ $orientationClass = "tg-collage-square" }}
+    {{ end }}
+  {{ end }}
+
+  <div class="tg-collage tg-collage-{{ $count }} {{ $orientationClass }}">
     {{ range . }}
       {{ $ext := lower (path.Ext .) }}
       {{ if or (eq $ext ".mp4") (eq $ext ".mov") (eq $ext ".webm") }}

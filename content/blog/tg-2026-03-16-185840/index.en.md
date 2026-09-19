@@ -6,27 +6,25 @@ tg_link: "https://t.me/moving_to_ds/77"
 tg_media: []
 ---
 
-**Cursor** 💎 / **ClaudeCode** **💎**
+I've been using **Cursor** for over a year now. It's a very handy tool that, back in the day (which was only a year ago), popularized the concept of vibecoding. 
 
-Я уже больше года пользуюсь **Cursor**. Очень удобная вещь, которая в свое время (это было всего год назад) вообще ввела понятие вайбкодинг. 
+Anthropic models have always been considered the best for working in Cursor, but there was a problem with them: rate limits burned out quickly, and the tracking system for those limits was completely opaque.
+In practice, I personally tried to avoid using any other models (at least willingly).
 
-Всегда лучшими моделями работы в курсор считались модели от Anthropic, но вот с ними была проблема: лимиты быстро сгорали, а система отслеживания этих лимитов была абсолютно не прозрачной.
-По факту всеми остальными моделями, я лично старался не пользоваться (по крайней мере по своей воле).
+Anthropic came out with their own tool — **ClaudeCode**. Its advantages:
+- 🌟 Top-tier models for coding (Haiku / Sonnet / Opus)
+- 🌟 A transparent limits system (at least you can track them)
+- 🌟 The models themselves perform better integrated with ClaudeCode, which is hardly surprising since they are their own models.
 
-Anthropic сделали свой инструмент – **ClaudeCode**. Его преимущества:
-- 🌟Лучшие модели для написания кода (Haiku/Sonnet/Opus)
-- 🌟Понятная система лимитов (их хотя бы можно отслеживать)
-- 🌟Сами модели работают в связке с ClaudeCode лучше, что неудивительно, учитывая что это их модели.
+A month ago I decided to get a subscription to finally test this thing everyone has been praising so much.
+What held me back initially was that the original ClaudeCode is a CLI (command-line interface). But despite that, building CLI clients for agentic systems has become the standard — look at alternatives like OpenAI Codex, QwenCode — meaning people truly love it.
 
-Месяц назад решил купить подписку, чтобы наконец протестировать эту штуку, которую все так расхваливают.
-Отталкивало то, что оригинальный ClaudeCode – это CLI (консольное приложение). Но не смотря на это, создание CLI клиентов для агентских систем стало стандартом – появились аналоги: OpenAI Codex, QwenCode, а значит людям это реально зашло.
+Here's my take: 🔝 — it works really damn well. ClaudeCode is designed so you don't have to write a single line of code yourself — the agent does everything, and you just guide it. Almost every time (at least with Opus), you get a working solution on the first try. Sure, it might not be perfect, but you can iteratively refine it using those same agents. 
 
-Что могу сказать: 🔝 – прям круто работает. ClaudeCode задуман так, чтобы вообще не писать не единой строки кода – все делает агент, а ты его только направляешь. Почти всегда (по крайней мере с Opus) с первого раза получается работающее решение. Да, оно скорее всего будет неидеальным, но можно итеративно улучшать его с помощью тех же агентов. 
+Right now I mostly use it for fun to hack on pet projects. At the same time, I'm digging deeper into it so I can use it to build something interesting down the road.
 
-Сейчас использую его по большей части для удовольствия, чтобы писать какие-то пет-проекты. Заодно изучаю поглубже, чтобы с его помощью в дальнейшем создавать что-то интересное.
+Unfortunately, I don't have the opportunity to use it at work yet, but I'll definitely keep renewing the subscription because it's just pure joy 👉
 
-В работе, к сожалению, применить его пока нет возможности, но я все равно продолжу покупать подписку, потому что это очень кайфово 👉
+The only bummer is how fast the limits run out 😡
 
-Жаль только лимиты быстро кончаются 😡
-
-Кажется, что ClaudeCode заслуживает отдельной серии постов. Вайбкодинг – навык будущего. Или уже настоящего..?
+It feels like ClaudeCode deserves a dedicated series of posts. Vibecoding is the skill of the future. Or maybe the present already..?

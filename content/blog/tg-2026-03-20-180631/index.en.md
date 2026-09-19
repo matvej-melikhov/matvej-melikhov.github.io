@@ -1,21 +1,19 @@
 ---
 title: "💎 Claude Code: Channels"
 date: 2026-03-20T18:06:31
-tags: ["telegram", "claude_code", "news", "вайбкодинг"]
+tags: ["telegram", "claude_code", "news", "vibecoding"]
 tg_link: "https://t.me/moving_to_ds/84"
 tg_media: ["/personal-site/images/posts/tg-2026-03-20-180631/photo_40@20-03-2026_18-06-31.jpg"]
 ---
 
-**💎** **Claude Code: Channels**
+Anthropic rolled out **Channels** for Claude Code — you can now control your session directly from Telegram or Discord.
 
-Anthropic выкатили **Channels** для Claude Code – можно управлять сессией из Telegram или Discord.
+### How it works:
+You connect a Telegram bot following the instructions. When a message arrives, it gets sent to the active session as an event, Claude executes the task, and sends the response back to the messenger.
 
-**Как работает:**
-Подключаешь тг-бота по инструкции. Когда приходит сообщение – оно отправляется в активную сессию как событие, Claude выполняет задачу и отвечает обратно в мессенджер. 
+Docs are [here](https://code.claude.com/docs/en/channels)[.](https://code.claude.com/docs/en/channels)
 
-Документация [тут](https://code.claude.com/docs/en/channels)[.](https://code.claude.com/docs/en/channels)
+### Why it matters:
+Vibecoding: the model moves towards asynchronous workflows — start a long-running task, step away, and get a notification with the result in Telegram.
 
-**Зачем:**
-Вайбкодинг: модель переходит к асинхронной работе: запустил долгую задачу, ушёл, получил уведомление о результате в Telegram.
-
-😬 — У них каждый день новая фича, а я еще скиллы не успел протестить
+😬 — They release a new feature every single day, and I haven't even had time to test skills yet!

@@ -1,57 +1,57 @@
 ---
-title: "💀 GIL И АСИНХРОННОСТЬ"
+title: "💀 GIL AND ASYNCHRONY"
 date: 2026-03-08T17:17:47
-tags: ["telegram", "python", "асинхронность"]
+tags: ["telegram", "python", "asynchrony"]
 tg_link: "https://t.me/moving_to_ds/64"
 tg_media: []
 ---
 
-🟡**Почему в Python нет полноценной многопоточности?**
-– Мешает GIL.
-GIL (Global Interpreter Lock) – это механизм, который дает эксклюзивный доступ к CPU только одному потоку в один момент времени. По сути примитив – мьютекс. Такое поведение позволяет избежать Race Condition – состояния когда несколько потоков пытаются изменять один и тот же объект в памяти. На заре Python это было самое простое и быстрое решение. Но время идет, а GIL все еще существует и нам нужно научиться жить в "однопоточном" мире.
+### 🟡 Why is there no proper multithreading in Python?
+– The GIL gets in the way.
+GIL (Global Interpreter Lock) is a mechanism that grants exclusive access to the CPU to only one thread at a time. Essentially, it's a primitive — a mutex. This behavior prevents Race Conditions — states where multiple threads attempt to modify the same object in memory simultaneously. At the dawn of Python, this was the simplest and fastest solution. But time goes on, the GIL still exists, and we have to learn how to live in a "single-threaded" world.
 
-🟡**CPU и IO-bound**
-Задачи по использованию ресурсов делят на:
-- 🌟CPU-bound – те, что максимально загружают процессор (вычисления)
-- 🌟IO-bound – те, что большую часть времени тратят не на вычисления, а на системные вызовы input/ouput (чтение/запись в БД, отправка запроса по сети, ожидание ввода пользователя)
+### 🟡 CPU and IO-bound
+Resource usage tasks are divided into:
+- 🌟 CPU-bound – those that load the processor to the maximum (computations)
+- 🌟 IO-bound – those that spend most of their time not on computations, but on input/output system calls (reading/writing to a database, sending network requests, waiting for user input)
 
-- ➡️  Кажется, что нерационально давать CPU задачам, которые используют его, к примеру, только 1% времени, а все остальное время просто ждут чего-то (ответа по сети, ввода пользователя).
+- ➡️ It seems irrational to allocate the CPU to tasks that only use it, say, 1% of the time, while spending the rest of the time just waiting for something (a network response, user input).
 
-🎆 и тут появляется идея асинхронности:
+🎆 And this is where the idea of asynchrony comes in:
 
-Давайте выделять CPU задачам, которым он реально нужен, а у тех, что чего-то ждут, будем его на время забирать
+Let's allocate CPU time to tasks that actually need it, and temporarily take it away from those waiting for something.
 
-**Асинхронность (конкурентная многозадачность)**
-Вместо того, чтобы отправлять запросы к серверу последовательно (синхронно) можно переключаться между задачами, когда они ждут и возвращаться к ним, когда готов ответ и снова требуется работа CPU.
+### Asynchrony (Concurrent Multitasking)
+Instead of sending requests to a server sequentially (synchronously), we can switch between tasks while they are waiting, and return to them when the response is ready and CPU work is needed again.
 
-**Пример**: отправка 2-х http-запросов
-Синхронный код  🍴:
-Запрос 1 ➡️ Сервер ➡️ Ответ 1,  Запрос 2 ➡️ Сервер ➡️ Ответ 2
+**Example**: sending 2 HTTP requests
+Synchronous code 🍴:
+Request 1 ➡️ Server ➡️ Response 1, Request 2 ➡️ Server ➡️ Response 2
 
-Асинхронный код 😡:
-Запрос 1 ➡️ Сервер
-                 ➡️ Запрос 2 ➡️ Сервер
+Asynchronous code 😡:
+Request 1 ➡️ Server
+                 ➡️ Request 2 ➡️ Server
 
-⚡️ Учитывая, что в IO-bound задачах большая часть времени уходит именно на ответ от сервера, скорость получения всех 3-х ответов сокращается практически в 2 раза. Магия асинхронного кода – один поток, но в 3 раза быстрее.
+⚡️ Considering that in IO-bound tasks most of the time is spent waiting for a response from the server, the time to receive all responses is cut almost in half. The magic of asynchronous code — a single thread, but much faster.
 
-📐*Термин "синхронный код" может сбивать с толку. Интуитивно кажется, что синхронно – значит параллельно, но в контексте программирования – последовательно, то есть каждая следующая задача ждет выполнения предыдущей. Асинхронность* же позволяет следующей задаче не ждать (если IO-bound)
+📐*The term "synchronous code" can be confusing. Intuitively, it seems like synchronous means parallel, but in programming terminology, it means sequential — that is, each subsequent task waits for the previous one to finish. Asynchrony*, on the other hand, allows the next task not to wait (if IO-bound).*
 
-Чтобы писать асинхронный код на Python, нужно знать **основные понятия:**
+To write asynchronous code in Python, you need to understand the **core concepts:**
 
-- **Async-функция** – функция, объявленная через async def. При её вызове код внутри не выполняется, а возвращается объект корутины. Внутри неё оператор await используется для приостановки выполнения в точках ожидания, чтобы вернуть управление в Event Loop, не блокируя поток.
-- **Корутина** – объект, который создается при вызове async-функции. Корутины можно планировать на выполнение в асинхронном режиме, event loop будет переключаться между ними (конкурентность) в момент await.
-- *На самом деле, корутины представляют собой генераторы (yield), до появления синтаксиса async-await именно через них писали асинхронный код, что довольно громоздко*
-- **Task** – задача. Создается из объекта корутины. В отличие от корутины (которая при создании не начинает выполняться без await), таски сразу же начинают фоновое выполнение
-- **Event loop** – тот самый диспетчеризатор, который решает, какой корутине сейчас дать "поработать". Понимает когда и куда переключать контекст в момент await.
+- **Async function** – a function declared with `async def`. When called, the code inside does not execute immediately; instead, a coroutine object is returned. Inside it, the `await` operator is used to pause execution at waiting points, handing control back to the Event Loop without blocking the thread.
+- **Coroutine** – an object created when an async function is called. Coroutines can be scheduled for execution in asynchronous mode; the event loop will switch between them (concurrency) at the moment of `await`.
+- *In reality, coroutines are generators (`yield`); before the `async/await` syntax was introduced, that was how asynchronous code was written, which was quite cumbersome.*
+- **Task** – created from a coroutine object. Unlike a coroutine (which upon creation doesn't start running without `await`), tasks immediately start background execution.
+- **Event loop** – the dispatcher that decides which coroutine gets to "work" right now. It understands when and where to switch context at the moment of `await`.
 
-Также есть менее популярные, **но не менее полезные:**
+There are also less common **but no less useful:**
 
-- **asyncio.Lock** – асинхронный аналог mutex. Гарантирует, что только одна корутина выполняет критическую секцию.
-- **asyncio.Semaphore** – как Lock, но позволяет определять любое количество корутин, одновременно работающих с критической секцией
-- **asyncio.Event** – события для синхронизации корутин между собой. Например: одна сообщает, другие ждут сигнала
-- **asyncio.Queue** – асинхронная очередь для producer-consumer архитектуры.
+- **asyncio.Lock** – the asynchronous equivalent of a mutex. Guarantees that only one coroutine executes the critical section.
+- **asyncio.Semaphore** – like a Lock, but allows defining any number of coroutines simultaneously working with the critical section.
+- **asyncio.Event** – events for synchronizing coroutines with each other. For example: one notifies, others wait for the signal.
+- **asyncio.Queue** – an asynchronous queue for producer-consumer architectures.
 
-**Пример на Python**: таймеры, которые работают параллельно (конкурентно):
+**Python Example**: timers running concurrently:
 
 ```python
 import asyncio
@@ -63,15 +63,15 @@ class Timer:
 
     async def start(self) -> None:
         while self.lost_time:
-            print(f'[{self.name}] Осталось {self.lost_time} секунд!')
+            print(f'[{self.name}] {self.lost_time} seconds remaining!')
             self.lost_time -= 1
-            # обновляем таймер и ждем секунду, в это время переключаем выполнение (await)
+            # update timer and wait a second, switching execution in the meantime (await)
             await asyncio.sleep(1)
 
-# всегда нужна main функция для запуска в event loop
+# a main function is always needed to run in the event loop
 async def main() -> None:
-    timer1 = Timer(name='Таймер 1', time=5)
-    timer2 = Timer(name='Таймер 2', time=10)
+    timer1 = Timer(name='Timer 1', time=5)
+    timer2 = Timer(name='Timer 2', time=10)
 
     await asyncio.gather(timer1.start(), timer2.start())
 
@@ -79,53 +79,53 @@ async def main() -> None:
 asyncio.run(main())
 ```
 
-ℹ️ Здесь asyncio.gather используется для одновременного запуска корутин, потому что при создании они не запускаются автоматически, только после await. 
+ℹ️ Here `asyncio.gather` is used to run coroutines concurrently, because upon creation they don't start automatically, only after `await`.
 
-Как альтернатива, можно создать из корутин таски:
+Alternatively, you can create tasks from coroutines:
 
 ```python
 async def main() -> None:
-    timer1 = Timer(name='Таймер 1', time=5)
-    timer2 = Timer(name='Таймер 2', time=10)
+    timer1 = Timer(name='Timer 1', time=5)
+    timer2 = Timer(name='Timer 2', time=10)
 
-    # запускаются сразу при создании
+    # they start immediately upon creation
     task1 = asyncio.create_task(timer1.start())
     task2 = asyncio.create_task(timer2.start())
 
-    # нужен await для каждой (если не сделать, то программа завершится сразу после их создания, не будет ждать их окончания)
+    # need await for each (otherwise the program will exit immediately after creating them, without waiting for completion)
     await task1
     await task2
 ```
 
-🚫 Но, так делать **нельзя**:
+🚫 But you **should not** do this:
 
 ```python
 async def main() -> None:
-    timer1 = Timer(name='Таймер 1', time=5)
-    timer2 = Timer(name='Таймер 2', time=10)
+    timer1 = Timer(name='Timer 1', time=5)
+    timer2 = Timer(name='Timer 2', time=10)
 
-    # корутины будут выполняться последовательно (сначала полностью отрабатывает 1ый таймер, потом – второй
+    # coroutines will run sequentially (the 1st timer will run completely, then the 2nd)
     await timer1.start()
     await timer2.start()
 ```
 
-Почему Python все-таки не однопоточный?
+Why is Python not strictly single-threaded after all?
 
-- 1️⃣ GIL освобождается при выполнении C-кода (библиотеки вроде NumPy, Torch и другие)
-- 2️⃣ GIL освобождается при системных вызовых input/output
+- 1️⃣ The GIL is released during execution of C code (libraries like NumPy, Torch, and others)
+- 2️⃣ The GIL is released during input/output system calls
 
-Получается, что можно параллелить через потоки вычисления на C (например, обучение моделей).
-↪️ Приятно
+So it turns out you can parallelize C computations across threads (for instance, model training).
+↪️ Nice
 
-А еще получается, что для IO-bound задач никакого ограничения на многопоточность нет и ничего не мешает запустить параллельно таймеры из [прошлого примера](https://t.me/moving_to_ds/67)
-↪️ Приятно, но асинхронность все же не требует ресурсов под содержание потоков, поэтому считается более предпочтительной
+And it also turns out that for IO-bound tasks there is no restriction on multithreading, and nothing prevents running the timers from the [previous example](https://t.me/moving_to_ds/67) in parallel.
+↪️ Nice, but asynchrony doesn't require resources to maintain OS threads, which is why it's considered preferable.
 
-Асинхронность + многопоточность
+Asynchrony + Multithreading
 
-В некоторых случаях имеет смысл использовать и то, и другое:
+In some cases, it makes sense to use both:
 
-- Если основной код асинхронный, но есть синхронная библиотека, то можно вызывать ее методы в отдельном потоке (если, конечно, IO-bound), не блокируя event loop.
-- Можно в отдельном потоке запускать векторные вычисления (numpy, torch), не блокируя основной асинхронный код.
+- If the main code is asynchronous but there's a synchronous library, you can call its methods in a separate thread (if IO-bound, of course) without blocking the event loop.
+- You can run vector calculations (NumPy, Torch) in a separate thread without blocking the main asynchronous code.
 
-Главное понимать, как именно работает GIL и асинхронность в Python  😎
-А вы поняли?
+The key is to understand exactly how the GIL and asynchrony work in Python 😎
+Do you get it now?

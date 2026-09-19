@@ -6,100 +6,31 @@ tg_link: "https://t.me/moving_to_ds/136"
 tg_media: ["/personal-site/images/posts/tg-2026-07-19-022202/photo_75@19-07-2026_02-22-02.jpg", "/personal-site/images/posts/tg-2026-07-19-022202/photo_76@19-07-2026_02-22-02.jpg"]
 ---
 
-Magic Studio
-        
+For a very long time, I dreamed of Telegram adding markdown-formatted messages: native headers, formulas, inline illustrations, etc. I thought it would never happen. But...
 
-        
-Я очень давно мечтал, чтобы в тг добавили сообщения в markdown формате: нативные заголовки, формулы, inline-иллюстрации и т.д. Я думал, что этого уже никогда не будет. Но...
-        
+A month ago, Telegram [added](https://t.me/xor_journal/9509) rich messages (essentially markdown). Only for bots. So the idea came up to make a service similar to [@Posted](https://t.me/Posted) (if anyone knows it), allowing users to create posts in the new rich format (a bot posts on your behalf in the channel).
 
-        
+In the end, my colleague and I sat down to ~~vibecode~~ build the project. We created an MVP and it turned out really great, like a full-fledged post studio. Most importantly, it gave the unique ability to write posts in the new format back when regular users and channels didn't have that option.
 
-        
-Месяц назад в Telegram [добавили](https://t.me/xor_journal/9509) rich-сообщения (по сути markdown). Только для ботов. Поэтому появилась идея сделать сервис похожий на [@Posted](https://t.me/Posted) (если кто знает), который будет позволять делать посты в новом rich-формате (бот постит от твоего имени в канале).
-        
+### Features:
 
-        
+- A convenient editor with AI features
+- Scheduled posting
+- Multi-channel management
+- Premium emoji support
+- Works completely without a VPN
 
-        
-В итоге с коллегой сели ~~вайбкодить~~ писать проект. Сделали MVP и прям круто получилось, как полноценная студия постов, а главное давало уникальную возможность писать посты в новом формате, когда для юзеров и каналов такой возможности нет.
-        
+And we had planned so much more. You can test out the latest version here – [**Magic Studio v1.0**](http://161.104.32.130/prod/editor).
 
-        
+And then, last Monday, [news](https://t.me/technomedia/13286) broke that Telegram is rolling out this feature absolutely everywhere: in DMs and in channels. And they did it really well: sleek UI, they even stole the AI features :(
 
-         
+On the downside, functionality is heavily restricted for non-premium users. And the styling itself is currently somewhat limited.
 
-          
+It's a bummer. It felt like with their development pace, they'd either take forever or never do it at all. Especially considering how raw the rich-text rendering still looks (I filed several issues on their client myself), they rushed it.
 
-          
+Well, looks like the project will have to be shelved. Still, it was an interesting experience. I even rented S3 and a VPS, tinkered with CI/CD, and set up dev/prod environments – after all, we take things seriously around here.
 
-         
+### What do you think? Is it worth continuing?
 
-        
-
-        
-**Из фичей:**
-        
-
-        
-
-         
-удобный редактор с AI-функциями
-         
-
-         
-постинг по расписанию
-         
-
-         
-управление несколькими каналами
-         
-
-         
-использование premium эмодзи
-         
-
-         
-работа полностью без VPN
-         
-
-        
-
-        
-И много чего еще планировали сделать. Последнюю версию можно потестить здесь – [**Magic Studio v1.0**](http://161.104.32.130/prod/editor).
-        
-
-        
-
-        
-И вот в прошлый понедельник выходит [новость](https://t.me/technomedia/13286), что тг раскатывает свою фичу абсолютно везде: и в лс, и в каналы. Причем сделали прям четко: UI прикрутили удобный, AI-функции даже сперли :(
-        
-
-        
-Из минусов – что для не premium-юзеров сильно ограничен функционал. И немного урезаны пока стили сами по себе.
-        
-
-        
-
-        
-Обидно. Казалось, что они это либо еще очень долго будут делать, с их темпом разработки, либо вообще никогда не сделают. Тем более, учитывая, как сыро пока rich-формат отображается (сам писал несколько issue в их клиент), они поспешили.
-        
-
-        
-
-        
-Ну а проект похоже придется убрать в ящик. Зато интересный опыт. Даже арендовал S3 и VDS, повозился с CI/CD и настройкой dev/prod стенда – ну а как иначе – у нас тут все серьезно.
-        
-
-        
-
-        
-**Что думаете? Стоит дальше делать?**
-        
-
-        
-❤ – да, так-то официальная фича только с premium
-        
-
-        
-😢 – нет, кто захочет, купит прем и будет в телеграме писать
+- ❤ – Yes, after all the official feature requires Premium
+- 😢 – No, whoever wants it will just buy Premium and write right in Telegram

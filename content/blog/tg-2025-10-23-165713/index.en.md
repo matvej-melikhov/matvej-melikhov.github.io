@@ -1,17 +1,17 @@
 ---
-title: "🏦 Т-банк проводит митап по продуктовой аналитик..."
+title: "🏦 T-Bank is hosting a meetup on product analytics..."
 date: 2025-10-23T16:57:13
-tags: ["telegram", "анонсы"]
+tags: ["telegram", "announcements"]
 tg_link: "https://t.me/moving_to_ds/52"
 tg_media: ["/personal-site/images/posts/tg-2025-10-23-165713/photo_26@23-10-2025_16-57-13.jpg"]
 ---
 
-🏦 Т-банк проводит [митап по продуктовой аналитике](https://meetup.tbank.ru/event/t-meetup-product-analytics). В Санкт-Петербурге!
+🏦 T-Bank is hosting a [product analytics meetup](https://meetup.tbank.ru/event/t-meetup-product-analytics). Right here in Saint Petersburg!
 
-Программа интересная:
-✨ **Как найти инсайты для улучшения продукта из обращений клиента при помощи LLM-решений и ML-моделей**
-Поговорим о способах работать с данными эффективнее и быстрее с помощью LLM и ML-моделей.
-✨ **Авито. Подработка: как мы строим алгоритмы матчинга с нуля**
-Узнаем, как команда решала задачу эффективного матчинга, какие подводные камни обнаружили и что планируют делать дальше.
+The agenda looks promising:
+### ✨ How to extract insights for product improvement from customer inquiries using LLMs and ML models
+Exploring ways to process data faster and more effectively using LLM and ML solutions.
+### ✨ Avito Part-time: how we build matching algorithms from scratch
+Learning how the team tackled the problem of efficient matching, what pitfalls they hit, and where they plan to go next.
 
-Заявку оставил, думаю схожу. Какой насыщенный на митапы октябрь 😵
+Submitted my registration, thinking of going. October is turning out to be so packed with meetups 😵

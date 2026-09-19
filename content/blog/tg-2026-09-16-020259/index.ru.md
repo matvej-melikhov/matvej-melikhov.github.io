@@ -6,7 +6,7 @@ tg_link: "https://t.me/moving_to_ds/155"
 tg_media: ["/personal-site/images/posts/tg-2026-09-16-020259/photo_85@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/photo_86@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/photo_87@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/photo_88@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/photo_89@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/photo_90@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/IMG_3930.MOV", "/personal-site/images/posts/tg-2026-09-16-020259/IMG_3979.MOV", "/personal-site/images/posts/tg-2026-09-16-020259/IMG_4029.MOV"]
 ---
 
-💙💙💙💙💙
+
 
 На выходных посетил **Ozon E-CODE**. Второй год подряд езжу в Москву и это уже становится традицией. В этот раз удалось собрать аж 5 друзей из СПб! 😀
 

@@ -1,21 +1,21 @@
 ---
-title: "Изменения работы в Wildberries"
+title: "Changes Working at Wildberries"
 date: 2026-04-27T13:24:01
-tags: ["telegram", "wildberries", "работа"]
+tags: ["telegram", "wildberries", "work"]
 tg_link: "https://t.me/moving_to_ds/125"
 tg_media: []
 ---
 
-Уж не знаю, совпадение или Татьяна Ким читает мой блог :)
+I don't know whether it's a coincidence or Tatyana Kim is reading my blog :)
 
-Но буквально за последний месяц 3 недостатка работы в Wildberries из моего [поста](https://t.me/moving_to_ds/106) были ликвидированы ~~(почти)~~:
+But in literally the past month, 3 drawbacks of working at Wildberries from my [post](https://t.me/moving_to_ds/106) were resolved ~~(almost)~~:
 
-- Прислали корпоративный макбук. Хотя это казалось невозможным и не двигалось с места на протяжении более чем года.
+- They sent a corporate MacBook. Even though it seemed impossible and hadn't moved an inch for over a year.
 
-- Добавили чуть бенефитов, например, сделали бесплатную подписку WB Клуба (бесполезная вещь, но просто я прям про нее писал)
+- They added some benefits, for example, free WB Club subscription (a useless perk, but I specifically wrote about it)
 
-- Пригласили поехать на организацию стенда WB на HighLoad (самое интересное, что про конференции я писал именно в контексте HighLoad)
+- I was invited to help organize the WB booth at HighLoad (the funny thing is that when I wrote about conferences, it was specifically in the context of HighLoad)
 
-**Ну и как после этого не верить в чудо?**
+**So how can you not believe in miracles after this?**
 
-*P.S. про макбук вычеркнул из минусов, если съезжу на HighLoad – это тоже вычеркну*
+*P.S. Crossed off the MacBook from the cons list; if I go to HighLoad, I'll cross that off too.*

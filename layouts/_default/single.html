@@ -6,7 +6,7 @@
     {{ end }}
 
     <header class="single-header">
-      <h1 class="section-title" style="font-size: 4rem; line-height: 1; margin-bottom: 2rem;">{{ .Title }}</h1>
+      <h1 class="section-title">{{ .Title }}</h1>
       {{ if and (not .Params.hidemeta) (not .Params.hide_meta) }}
       <div class="post-meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>

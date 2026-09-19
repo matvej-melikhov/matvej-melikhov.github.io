@@ -1,33 +1,31 @@
 ---
-title: "🧠 ИИ для личной базы знаний"
+title: "🧠 AI for a Personal Knowledge Base"
 date: 2026-08-02T17:17:54
 tags: ["telegram", "llm_wiki"]
 tg_link: "https://t.me/moving_to_ds/138"
 tg_media: []
 ---
 
-🧠 **ИИ для личной базы знаний**
+A couple of months ago, I wrote my bachelor's thesis on knowledge systematization using AI. I based it on the fresh [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) pattern by Andrej Karpathy.
 
-Пару месяцев назад я писал ВКР на тему систематизации знаний с применением ИИ. За основу взял свежий паттерн [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) от Андрея Карпаты.
+It ended up as a very powerful system combining:
 
-В итоге получилась очень мощная система, которая объединила в себе:
+- 🌟 The convenience of 💎 **Obsidian**  
+- 🌟 The power of 💎 **Claude Code**  
+- 🌟 The reliability of my custom **harness** (skills, hooks, and deterministic scripts)  
 
-- 🌟Удобство 💎 **Obsidian**  
-- 🌟Мощь 💎 **Claude Code**  
-- 🌟Надежность моей кастомной **обвязки** (скиллы, хуки и детерминированные скрипты)  
+And it worked remarkably well. For those interested, here is the project repository – [karpathy-llm-wiki](https://github.com/matvej-melikhov/karpathy-llm-wiki) (I'd appreciate your ⭐️).
 
-И это работало и правда очень хорошо. Кому интересно, вот репозиторий проекта – [karpathy-llm-wiki](https://github.com/matvej-melikhov/karpathy-llm-wiki) (буду рад вашим ⭐️).
+However, as often happens, the more feature-packed a tool becomes, the heavier and less flexible it gets.
+Frankly speaking, to perform simple operations on text documents in a personal knowledge base, there is no need to use heavyweight models like Claude Opus or even Sonnet. Sure, they provide the best quality, but they run noticeably slower than alternatives. On top of that, a Claude subscription isn't the cheapest, not to mention the periodic risk of getting banned by Anthropic.
 
-Но как это часто бывает, чем функциональнее инструмент, тем более тяжелым и менее гибким он становится.
-Откровенно говоря, чтобы выполнять простые операции с текстовыми документами в личной базе знаний, нет необходимости в импользовании тяжелейших моделей вроде Claude Opus или даже Sonnet. Они, конечно, дают лучшее качество, но работают заметно дольше аналогов. К тому же подписка Claude не самая дешевая, не говоря уже о том, что периодически может прилететь бан от anthropic.
+Therefore, to maintain my knowledge base now, I use the simplest possible setup:
+💎 **Obsidian +** **💎** **Gemini 3.6 Flash** (via antigravity-cli).
 
-Поэтому сейчас для ведения своей базы я использую максимально простую конфигурацию:
-💎 **Obsidian +** **💎** **Gemini 3.6 Flash** (через antigravity-cli).
+The results make me happy:
 
-Результаты меня радуют:
+- 🌟 Runs virtually an order of magnitude faster than Claude.
+- 🌟 Successfully handles all my current tasks (source understanding, Q&A, synthesizing new pages).
+- 🌟 Additionally generates great covers/illustrations for pages using 🍌 Nano Banana.
 
-- 🌟Работает практически на порядок быстрее Claude.
-- 🌟Успешно закрывает все мои текущие задачи (понимание источника, ответы на вопросы, синтез новых страниц).
-- 🌟Вдобавок генерирует отличные обложки/картинки для страниц с помощью 🍌 Nano Banana.
-
-Короче, **простое лучше сложного**. Если ищете простой сетап для своих заметок – рекомендую попробовать.
+In short, **simple is better than complex**. If you're looking for a simple setup for your notes, I recommend giving it a try.

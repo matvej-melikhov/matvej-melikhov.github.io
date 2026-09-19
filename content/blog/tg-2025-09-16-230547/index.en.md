@@ -1,18 +1,16 @@
 ---
-title: "✨ Как прошел 🟦⬜️ 2025"
+title: "How ECODE 2025 went"
 date: 2025-09-16T23:05:47
 tags: ["telegram", "meetup"]
 tg_link: "https://t.me/moving_to_ds/34"
 tg_media: ["/personal-site/images/posts/tg-2025-09-16-230547/photo_13@16-09-2025_23-05-47.jpg", "/personal-site/images/posts/tg-2025-09-16-230547/photo_14@16-09-2025_23-05-47.jpg", "/personal-site/images/posts/tg-2025-09-16-230547/photo_15@16-09-2025_23-05-47.jpg", "/personal-site/images/posts/tg-2025-09-16-230547/photo_16@16-09-2025_23-05-47.jpg", "/personal-site/images/posts/tg-2025-09-16-230547/photo_17@16-09-2025_23-05-47.jpg"]
 ---
 
-✨ **Как прошел** 🟦⬜️⬛️ **2025**
+This year I attended both days and I can say that, at the moment, it is probably **the top free IT conference**. Awesome speakers from Russian big tech, truly engaging talks across various fields, lots of great people (as it turns out, over **5,000** people attended over the two days!), entertainment, prizes, food, and drinks — in short, everything was top-notch, with an incredible atmosphere 🔥
 
-В этом году я был оба дня и могу сказать, что это, наверное, на данный момент **самая топовая бесплатная IT-конференция**. Крутые спикеры из российских бигтехов, очень интересные доклады на различные тематики, куча классных людей (как оказалось, за 2 дня мероприятие посетило больше **5000** человек!), развлекательная программа, призы, еда и напитки — в общем, все на высоте, очень атмосферное место 🔥
+There were classic tech-track presentations, as well as a "Life and Science" track featuring fantastic university professors. There were interactive formats like "Burning Talks", where any attendee could give a talk on any topic, and "Tech Tales" with Ozon directors — which was both fascinating and hilarious. Once again, I became convinced that watching online is **100 times worse** — you completely miss out on the atmosphere 👎
 
-Были и классические доклады по IT-направлениям, и трек «Жизнь и наука», в котором выступали очень классные профессора из университетов, были интерактивы, вроде «Burning Talks», где каждый участник мог выступить с любой темой, или «Техно-байки» с директорами Ozon – это было интересно и довольно смешно. Еще раз убедился, что смотреть в онлайне – **в 100 раз хуже** – полностью теряется атмосфера 👎
+All in all, **I loved it**. Next year, if I have the chance, **I'll definitely go again**. I'd love to attend such major events more often, though it's a shame they are all in Moscow ☹️
 
-В общем, **очень понравилось**. В следующем году, если будет возможность – **обязательно поеду снова**. Хочется чаще посещать такие крупные события, но жаль, что они все в Москве ☹️
-
-К сожалению, на конференции не встретил ребят из своей команды, но зато удалось познакомиться с другими интересными людьми, хотя и не со всеми, кем планировал. 
-Надеюсь, что WB тоже когда-нибудь организует что-то похожее по масштабу, топовых спикеров здесь достаточно, осталось только все оганизовать!  🎉
+Unfortunately, I didn't bump into anyone from my team at the conference, but I did get to meet other interesting folks, though not everyone I had planned to.
+I hope WB will organize something of similar scale one day — there's certainly no shortage of top speakers here; all that's left is to set it up! 🎉
