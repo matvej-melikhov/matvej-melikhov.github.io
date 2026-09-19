@@ -1,0 +1,81 @@
+[read_more]
+other = "Read more →"
+
+[reading_time]
+one = "{{ .Count }} min read"
+other = "{{ .Count }} min read"
+
+[published]
+other = "Published"
+
+[updated]
+other = "Updated"
+
+[tags]
+other = "Tags"
+
+[all_tags]
+other = "All Tags"
+
+[all_posts]
+other = "All Posts"
+
+[latest_posts]
+other = "Latest Posts"
+
+[view_slides]
+other = "View Slides"
+
+[watch_recording]
+other = "Watch Recording"
+
+[toggle_theme]
+other = "Toggle theme"
+
+[coming_soon]
+other = "Coming soon"
+
+[coming_soon_desc]
+other = "This section is under construction. Stay tuned!"
+
+[no_posts]
+other = "No posts yet"
+
+[back_to_list]
+other = "← Back to list"
+
+[prev_post]
+other = "← Previous"
+
+[next_post]
+other = "Next →"
+
+[about_title]
+other = "About Me"
+
+[meetups_title]
+other = "Meetups & Talks"
+
+[articles_title]
+other = "Articles"
+
+[blog_title]
+other = "Blog"
+
+[event]
+other = "Event"
+
+[location]
+other = "Location"
+
+[talk_type]
+other = "Talk type"
+
+[table_of_contents]
+other = "Table of Contents"
+
+[share]
+other = "Share"
+
+[hero_scroll]
+other = "Scroll to explore"

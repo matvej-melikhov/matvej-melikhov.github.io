@@ -1,0 +1,33 @@
+{{ define "main" }}
+<article class="single-page">
+  <div class="container">
+    <a href="{{ .CurrentSection.RelPermalink }}" class="back-link">{{ T "back_to_list" }}</a>
+
+    <header class="single-header">
+      <h1>{{ .Title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        <span>·</span>
+        <span>{{ .ReadingTime }} {{ T "reading_time" .ReadingTime }}</span>
+      </div>
+      {{ with .Params.tags }}
+        <div class="card-tags">
+          {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+        </div>
+      {{ end }}
+    </header>
+
+    <!-- Table of Contents -->
+    {{ if .Params.toc }}
+      <nav class="toc">
+        <h3>{{ T "table_of_contents" }}</h3>
+        {{ .TableOfContents }}
+      </nav>
+    {{ end }}
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

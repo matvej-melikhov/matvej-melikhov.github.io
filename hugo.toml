@@ -1,0 +1,118 @@
+baseURL = 'https://matvej-melikhov.github.io/personal-site/'
+title = 'Matvej Melikhov'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+paginate = 9
+enableEmoji = true
+
+# ------------------------------
+# Markdown rendering
+# ------------------------------
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'monokai'
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    noClasses = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+# ------------------------------
+# Taxonomies
+# ------------------------------
+[taxonomies]
+  tag = 'tags'
+
+# ------------------------------
+# Output formats
+# ------------------------------
+[outputs]
+  home = ['HTML']
+  section = ['HTML']
+  taxonomy = ['HTML']
+  term = ['HTML']
+
+# ------------------------------
+# Languages
+# ------------------------------
+[languages]
+
+  [languages.en]
+    locale = 'en-US'
+    label = 'EN'
+    weight = 1
+    title = 'Matvej Melikhov — Data Scientist & ML Engineer'
+
+    [languages.en.params]
+      description = 'Personal blog, technical articles, and conference talks by Matvej Melikhov'
+      author = 'Matvej Melikhov'
+      subtitle = 'Data Scientist & ML Engineer'
+      hero_greeting = "Hi, I'm"
+      hero_name = 'Matvej Melikhov'
+      hero_cta = 'Explore my work'
+
+    [[languages.en.menus.main]]
+      name = 'Blog'
+      url = '/blog/'
+      weight = 10
+    [[languages.en.menus.main]]
+      name = 'Articles'
+      url = '/articles/'
+      weight = 20
+    [[languages.en.menus.main]]
+      name = 'Meetups'
+      url = '/meetups/'
+      weight = 30
+    [[languages.en.menus.main]]
+      name = 'About'
+      url = '/about/'
+      weight = 40
+
+  [languages.ru]
+    locale = 'ru-RU'
+    label = 'RU'
+    weight = 2
+    title = 'Матвей Мелихов — Data Scientist & ML-инженер'
+
+    [languages.ru.params]
+      description = 'Личный блог, технические статьи и доклады на митапах — Матвей Мелихов'
+      author = 'Матвей Мелихов'
+      subtitle = 'Data Scientist & ML-инженер'
+      hero_greeting = 'Привет, я'
+      hero_name = 'Матвей Мелихов'
+      hero_cta = 'Смотреть работы'
+
+    [[languages.ru.menus.main]]
+      name = 'Блог'
+      url = '/ru/blog/'
+      weight = 10
+    [[languages.ru.menus.main]]
+      name = 'Статьи'
+      url = '/ru/articles/'
+      weight = 20
+    [[languages.ru.menus.main]]
+      name = 'Митапы'
+      url = '/ru/meetups/'
+      weight = 30
+    [[languages.ru.menus.main]]
+      name = 'Обо мне'
+      url = '/ru/about/'
+      weight = 40
+
+# ------------------------------
+# Site params
+# ------------------------------
+[params]
+  # Social links (fill in your actual URLs)
+  github = 'https://github.com/matvej-melikhov'
+  telegram = ''
+  linkedin = ''
+  kaggle = ''
+  twitter = ''
+  email = ''

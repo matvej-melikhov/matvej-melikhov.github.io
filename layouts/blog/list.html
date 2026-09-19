@@ -1,0 +1,121 @@
+{{ define "main" }}
+<div class="section-header">
+  <h1 class="section-title">{{ T "blog_title" }}</h1>
+  {{ with .Description }}<p class="section-desc">{{ . }}</p>{{ end }}
+</div>
+
+{{ $posts := where .Site.RegularPages "Section" "blog" }}
+{{ $posts = where $posts "Language.Lang" .Language.Lang }}
+
+<!-- Tag filters -->
+{{ $tags := .Site.Taxonomies.tags }}
+{{ if $tags }}
+  <div class="tag-filters">
+    <a href="?" class="tag filter-btn tag-active" data-tag="all">{{ T "all_posts" }}</a>
+    {{ range $name, $taxonomy := $tags }}
+      {{ $blogCount := 0 }}
+      {{ range $taxonomy.Pages }}
+        {{ if and (eq .Section "blog") (eq .Language.Lang $.Language.Lang) }}
+          {{ $blogCount = add $blogCount 1 }}
+        {{ end }}
+      {{ end }}
+      {{ if gt $blogCount 0 }}
+        <a href="?tag={{ $name | urlize }}" class="tag filter-btn" data-tag="{{ $name | urlize }}">{{ $taxonomy.Page.Title }} ({{ $blogCount }})</a>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}
+
+<div class="card-grid" id="blog-grid">
+  {{ range $posts }}
+    {{ $tagList := slice }}
+    {{ range (.GetTerms "tags") }}{{ $tagList = $tagList | append (.LinkTitle | urlize) }}{{ end }}
+    
+    <article class="card" data-tags="{{ delimit $tagList "," }}">
+      {{ with .GetTerms "tags" }}
+        <div class="card-tags">
+          {{ range . }}<a href="?tag={{ .LinkTitle | urlize }}" class="tag card-tag-btn" data-tag="{{ .LinkTitle | urlize }}">{{ .LinkTitle }}</a>{{ end }}
+        </div>
+      {{ end }}
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006/01/02" }}</time>
+      </div>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Params.summary }}<p class="card-summary">{{ . }}</p>{{ end }}
+      <a href="{{ .RelPermalink }}" class="read-more">{{ T "read_more" }}</a>
+    </article>
+  {{ end }}
+</div>
+
+<div class="card" id="no-posts-msg" style="display: none; text-align: center; padding: 4rem 2rem;">
+  <h3 style="margin:0; font-size: 2rem;">Ничего не найдено</h3>
+  <p style="margin-top: 1rem; opacity: 0.8;">Постов с таким тегом пока нет.</p>
+</div>
+
+<!-- JS Filtering Logic -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.card[data-tags]');
+    const filters = document.querySelectorAll('.filter-btn');
+    const cardTags = document.querySelectorAll('.card-tag-btn');
+    const noPosts = document.getElementById('no-posts-msg');
+
+    function applyFilter(tag) {
+      let visibleCount = 0;
+      
+      // Update filter buttons visual state
+      filters.forEach(btn => {
+        if (btn.dataset.tag === tag) {
+          btn.classList.add('tag-active');
+        } else {
+          btn.classList.remove('tag-active');
+        }
+      });
+
+      // Show/Hide cards
+      cards.forEach(card => {
+        const tagsArray = card.dataset.tags.split(',');
+        if (tag === 'all' || tagsArray.includes(tag)) {
+          card.style.display = 'flex';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // Handle empty state
+      if (noPosts) {
+        noPosts.style.display = visibleCount === 0 ? 'block' : 'none';
+      }
+    }
+
+    // Init from URL on load
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialTag = urlParams.get('tag') || 'all';
+    applyFilter(initialTag);
+
+    // Handle clicks on top filter buttons
+    filters.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const tag = btn.dataset.tag;
+        applyFilter(tag);
+        const newUrl = tag === 'all' ? window.location.pathname : `${window.location.pathname}?tag=${tag}`;
+        window.history.pushState({}, '', newUrl);
+      });
+    });
+
+    // Handle clicks on tags inside the cards
+    cardTags.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const tag = btn.dataset.tag;
+        applyFilter(tag);
+        const newUrl = window.location.pathname + `?tag=${tag}`;
+        window.history.pushState({}, '', newUrl);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  });
+</script>
+{{ end }}

@@ -1,0 +1,82 @@
+[read_more]
+other = "Читать далее →"
+
+[reading_time]
+one = "{{ .Count }} минута чтения"
+few = "{{ .Count }} минуты чтения"
+other = "{{ .Count }} минут чтения"
+
+[published]
+other = "Опубликовано"
+
+[updated]
+other = "Обновлено"
+
+[tags]
+other = "Теги"
+
+[all_tags]
+other = "Все теги"
+
+[all_posts]
+other = "Все записи"
+
+[latest_posts]
+other = "Последние записи"
+
+[view_slides]
+other = "Слайды"
+
+[watch_recording]
+other = "Запись доклада"
+
+[toggle_theme]
+other = "Сменить тему"
+
+[coming_soon]
+other = "Скоро"
+
+[coming_soon_desc]
+other = "Этот раздел в разработке. Следите за обновлениями!"
+
+[no_posts]
+other = "Пока нет записей"
+
+[back_to_list]
+other = "← Назад к списку"
+
+[prev_post]
+other = "← Предыдущая"
+
+[next_post]
+other = "Следующая →"
+
+[about_title]
+other = "Обо мне"
+
+[meetups_title]
+other = "Митапы и доклады"
+
+[articles_title]
+other = "Статьи"
+
+[blog_title]
+other = "Блог"
+
+[event]
+other = "Мероприятие"
+
+[location]
+other = "Место"
+
+[talk_type]
+other = "Тип доклада"
+
+[table_of_contents]
+other = "Содержание"
+
+[share]
+other = "Поделиться"
+
+[hero_scroll]
+other = "Листайте вниз"

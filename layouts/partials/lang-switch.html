@@ -1,0 +1,10 @@
+<div class="lang-switch">
+  {{ $currentLang := .Language.Lang }}
+  {{- range .AllTranslations -}}
+    {{- if eq .Language.Lang $currentLang -}}
+      <a href="{{ .RelPermalink }}" class="active" aria-current="true">{{ .Language.Label }}</a>
+    {{- else -}}
+      <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Locale }}">{{ .Language.Label }}</a>
+    {{- end -}}
+  {{- end -}}
+</div>

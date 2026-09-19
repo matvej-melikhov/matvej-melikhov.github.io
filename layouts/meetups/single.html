@@ -1,0 +1,46 @@
+{{ define "main" }}
+<article class="single-page">
+  <div class="container">
+    <a href="{{ .CurrentSection.RelPermalink }}" class="back-link">{{ T "back_to_list" }}</a>
+
+    <header class="single-header">
+      {{ with .Params.event }}
+        <div class="meetup-event" style="margin-bottom: 0.5rem;">{{ . }}</div>
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        {{ with .Params.location }}
+          <span>·</span>
+          <span>📍 {{ . }}</span>
+        {{ end }}
+        {{ with .Params.talk_type }}
+          <span>·</span>
+          <span>{{ . }}</span>
+        {{ end }}
+        {{ with .Params.speaker }}
+          <span>·</span>
+          <span>🎤 {{ . }}</span>
+        {{ end }}
+      </div>
+      {{ with .Params.tags }}
+        <div class="card-tags">
+          {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+        </div>
+      {{ end }}
+      <div class="meetup-links" style="margin-top: 1.5rem;">
+        {{ with .Params.slides_url }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="meetup-link">📊 {{ T "view_slides" }}</a>
+        {{ end }}
+        {{ with .Params.video_url }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="meetup-link">▶️ {{ T "watch_recording" }}</a>
+        {{ end }}
+      </div>
+    </header>
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

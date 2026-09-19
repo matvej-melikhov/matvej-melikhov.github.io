@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <ul class="footer-links">
+    {{ with .Site.Params.github }}<li><a href="{{ . }}" target="_blank" rel="noopener">GITHUB</a></li>{{ end }}
+    {{ with .Site.Params.telegram }}<li><a href="{{ . }}" target="_blank" rel="noopener">TELEGRAM</a></li>{{ end }}
+    {{ with .Site.Params.linkedin }}<li><a href="{{ . }}" target="_blank" rel="noopener">LINKEDIN</a></li>{{ end }}
+    {{ with .Site.Params.kaggle }}<li><a href="{{ . }}" target="_blank" rel="noopener">KAGGLE</a></li>{{ end }}
+    {{ with .Site.Params.email }}<li><a href="mailto:{{ . }}">EMAIL</a></li>{{ end }}
+  </ul>
+  <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. BRUTALIST EDITION.</p>
+</footer>
