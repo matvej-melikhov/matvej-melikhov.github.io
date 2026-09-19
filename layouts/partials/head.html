@@ -15,8 +15,10 @@
 <!-- Alternate languages for SEO -->
 {{ range .AllTranslations }}
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{ if eq .Language.Lang "en" }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
 {{ end }}
-<link rel="alternate" hreflang="x-default" href="{{ (hugo.Sites.Default.Home).Permalink }}">
+{{ end }}
 
 <!-- Preconnect to Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
