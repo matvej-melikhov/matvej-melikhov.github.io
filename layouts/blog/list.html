@@ -10,20 +10,28 @@
 <!-- Tag filters -->
 {{ $tags := .Site.Taxonomies.tags }}
 {{ if $tags }}
-  <div class="tag-filters">
-    <a href="?" class="tag filter-btn tag-active" data-tag="all">{{ T "all_posts" }}</a>
-    {{ range $name, $taxonomy := $tags }}
-      {{ $blogCount := 0 }}
-      {{ range $taxonomy.Pages }}
-        {{ if and (eq .Section "blog") (eq .Language.Lang $.Language.Lang) }}
-          {{ $blogCount = add $blogCount 1 }}
+  
+  <div id="tag-filters-wrapper" style="max-height: 110px; overflow: hidden; transition: max-height 0.3s ease-out; position: relative;">
+    <div class="tag-filters">
+      <a href="?" class="tag filter-btn tag-active" data-tag="all">{{ T "all_posts" }}</a>
+      {{ range $name, $taxonomy := $tags }}
+        {{ $blogCount := 0 }}
+        {{ range $taxonomy.Pages }}
+          {{ if and (eq .Section "blog") (eq .Language.Lang $.Language.Lang) }}
+            {{ $blogCount = add $blogCount 1 }}
+          {{ end }}
+        {{ end }}
+        {{ if gt $blogCount 0 }}
+          <a href="?tag={{ $name | urlize }}" class="tag filter-btn" data-tag="{{ $name | urlize }}">{{ $taxonomy.Page.Title }} ({{ $blogCount }})</a>
         {{ end }}
       {{ end }}
-      {{ if gt $blogCount 0 }}
-        <a href="?tag={{ $name | urlize }}" class="tag filter-btn" data-tag="{{ $name | urlize }}">{{ $taxonomy.Page.Title }} ({{ $blogCount }})</a>
-      {{ end }}
-    {{ end }}
+    </div>
+    <div id="tag-gradient" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: linear-gradient(transparent, var(--bg)); pointer-events: none;"></div>
   </div>
+  <div style="text-align: center; margin-bottom: 3rem;">
+    <button id="show-more-tags" style="background: none; border: none; color: var(--accent); cursor: pointer; font-family: var(--font-display); font-size: 0.9rem; text-decoration: underline; margin-top: 0.5rem;">Показать все теги ↓</button>
+  </div>
+
 {{ end }}
 
 <div class="card-grid" id="blog-grid">
@@ -89,10 +97,39 @@
       }
     }
 
+    
+    
     // Init from URL on load
     const urlParams = new URLSearchParams(window.location.search);
     const initialTag = urlParams.get('tag') || 'all';
+    
+    const tagWrapper = document.getElementById('tag-filters-wrapper');
+    const showMoreBtn = document.getElementById('show-more-tags');
+    const tagGradient = document.getElementById('tag-gradient');
+    
+    if (tagWrapper && showMoreBtn) {
+      showMoreBtn.addEventListener('click', () => {
+        if (tagWrapper.style.maxHeight === '110px') {
+          tagWrapper.style.maxHeight = '1000px';
+          showMoreBtn.innerText = 'Скрыть теги ↑';
+          tagGradient.style.display = 'none';
+        } else {
+          tagWrapper.style.maxHeight = '110px';
+          showMoreBtn.innerText = 'Показать все теги ↓';
+          tagGradient.style.display = 'block';
+        }
+      });
+      
+      // Also expand if a specific tag is selected from URL
+      if (initialTag !== 'all') {
+         tagWrapper.style.maxHeight = '1000px';
+         showMoreBtn.innerText = 'Скрыть теги ↑';
+         tagGradient.style.display = 'none';
+      }
+    }
+
     applyFilter(initialTag);
+
 
     // Handle clicks on top filter buttons
     filters.forEach(btn => {

@@ -1,0 +1,56 @@
+{{ if or .Params.tg_media .Params.tg_files }}
+<div class="tg-attachments">
+  {{ with .Params.tg_media }}
+  {{ $count := len . }}
+  {{ $uniformRatio := true }}
+  {{ $firstRatio := 0.0 }}
+  {{ $aspectStr := "1 / 1" }}
+  
+  {{ range $index, $media := . }}
+    {{ $ext := lower (path.Ext $media) }}
+    {{ if and (ne $ext ".mp4") (ne $ext ".mov") (ne $ext ".webm") }}
+      {{ $path := strings.TrimPrefix "/personal-site" $media }}
+      {{ $localPath := printf "static%s" $path }}
+      {{ if fileExists $localPath }}
+        {{ $config := imageConfig $localPath }}
+        {{ $ratio := div (mul $config.Width 1000.0) $config.Height }}
+        {{ if eq $firstRatio 0.0 }}
+          {{ $firstRatio = $ratio }}
+          {{ $aspectStr = printf "%d / %d" $config.Width $config.Height }}
+        {{ else }}
+          {{ if or (lt $ratio (sub $firstRatio 10)) (gt $ratio (add $firstRatio 10)) }}
+            {{ $uniformRatio = false }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  <div class="tg-collage tg-collage-{{ $count }}">
+    {{ range . }}
+      {{ $ext := lower (path.Ext .) }}
+      {{ if or (eq $ext ".mp4") (eq $ext ".mov") (eq $ext ".webm") }}
+        <div class="tg-media-wrapper" {{ if $uniformRatio }}style="aspect-ratio: {{ $aspectStr | safeCSS }} !important;"{{ end }}>
+          <video src="{{ . }}" playsinline autoplay muted loop class="tg-media-item"></video>
+        </div>
+      {{ else }}
+        <a href="{{ . }}" target="_blank" class="tg-media-link" {{ if $uniformRatio }}style="aspect-ratio: {{ $aspectStr | safeCSS }} !important;"{{ end }}>
+          <img src="{{ . }}" alt="Media" class="tg-media-item" {{ if $uniformRatio }}style="aspect-ratio: {{ $aspectStr | safeCSS }} !important;"{{ end }}>
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ with .Params.tg_files }}
+  <div class="tg-files">
+    {{ range . }}
+      <a href="{{ .url }}" class="tg-file-block" target="_blank" rel="noopener">
+        <svg class="tg-file-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
+        <span class="tg-file-name">{{ .name }}</span>
+      </a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

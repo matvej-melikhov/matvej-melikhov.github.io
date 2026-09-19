@@ -29,5 +29,7 @@
 
   {{ $themeJS := resources.Get "js/theme-toggle.js" | minify | fingerprint }}
   <script src="{{ $themeJS.RelPermalink }}" defer></script>
+  {{ $lightboxJS := resources.Get "js/lightbox.js" | minify | fingerprint }}
+  <script src="{{ $lightboxJS.RelPermalink }}" defer></script>
 </body>
 </html>

@@ -4,8 +4,11 @@
 
   <header class="single-header">
     <h1 class="section-title" style="font-size: 4rem; line-height: 1; margin-bottom: 2rem;">{{ .Title }}</h1>
-    <div class="post-meta" style="margin-bottom: 2rem; opacity: 1; font-size: 1rem;">
+    <div class="post-meta" style="margin-bottom: 2rem; opacity: 1; font-size: 1rem; display: flex; align-items: center; gap: 1rem;">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006/01/02" }}</time>
+      {{ if .Params.tg_link }}
+        <a href="{{ .Params.tg_link }}" target="_blank" class="tg-badge">Original in Telegram ↗</a>
+      {{ end }}
     </div>
         {{ $blogUrl := (site.GetPage "section" "blog").RelPermalink }}
         {{ with .GetTerms "tags" }}
@@ -19,13 +22,14 @@
 
   <div class="prose" style="margin-top: 3rem;">
     {{ .Content }}
+      {{ partial "tg-attachments.html" . }}
   </div>
 
   <!-- Post navigation -->
   <nav class="post-nav">
     {{ with .PrevInSection }}
       <a href="{{ .RelPermalink }}" class="post-nav-link prev">
-        <span class="post-nav-label" style="display:block; font-size: 0.85rem; opacity:0.8; margin-bottom: 0.5rem;">{{ T "prev_post" }}</span>
+        <span class="post-nav-label" style="display:block; font-size: 0.85rem; opacity:0.8; margin-bottom: 0.2rem;">{{ T "prev_post" }}</span>
         <span class="post-nav-title">{{ .Title }}</span>
       </a>
     {{ else }}
@@ -33,7 +37,7 @@
     {{ end }}
     {{ with .NextInSection }}
       <a href="{{ .RelPermalink }}" class="post-nav-link next" style="text-align: right;">
-        <span class="post-nav-label" style="display:block; font-size: 0.85rem; opacity:0.8; margin-bottom: 0.5rem;">{{ T "next_post" }}</span>
+        <span class="post-nav-label" style="display:block; font-size: 0.85rem; opacity:0.8; margin-bottom: 0.2rem;">{{ T "next_post" }}</span>
         <span class="post-nav-title">{{ .Title }}</span>
       </a>
     {{ else }}

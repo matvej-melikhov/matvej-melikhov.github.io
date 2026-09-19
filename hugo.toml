@@ -44,10 +44,10 @@ enableEmoji = true
 [languages]
 
   [languages.en]
-    languageCode = 'en-US'
-    languageName = 'EN'
+    locale = 'en-US'
+    label = 'EN'
     weight = 1
-    title = 'Matvej Melikhov — Data Scientist & ML Engineer'
+    title = 'Matvej Melikhov'
 
     [languages.en.params]
       description = 'Personal blog, technical articles, and conference talks by Matvej Melikhov'
@@ -75,10 +75,10 @@ enableEmoji = true
       weight = 40
 
   [languages.ru]
-    languageCode = 'ru-RU'
-    languageName = 'RU'
+    locale = 'ru-RU'
+    label = 'RU'
     weight = 2
-    title = 'Матвей Мелихов — Data Scientist & ML-инженер'
+    title = 'Матвей Мелихов'
 
     [languages.ru.params]
       description = 'Личный блог, технические статьи и доклады на митапах — Матвей Мелихов'
@@ -111,8 +111,8 @@ enableEmoji = true
 [params]
   # Social links (fill in your actual URLs)
   github = 'https://github.com/matvej-melikhov'
-  telegram = ''
-  linkedin = ''
+  telegram = 'https://t.me/matvej_melikhov'
+  linkedin = 'https://linkedin.com/in/matvej-melikhov'
   kaggle = ''
   twitter = ''
   email = ''
