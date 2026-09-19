@@ -2,9 +2,9 @@
   {{ $currentLang := .Language.Lang }}
   {{- range .AllTranslations -}}
     {{- if eq .Language.Lang $currentLang -}}
-      <a href="{{ .RelPermalink }}" class="active" aria-current="true">{{ .Language.Label }}</a>
+      <a href="{{ .RelPermalink }}" class="active" aria-current="true">{{ .Language.LanguageName }}</a>
     {{- else -}}
-      <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Locale }}">{{ .Language.Label }}</a>
+      <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}">{{ .Language.LanguageName }}</a>
     {{- end -}}
   {{- end -}}
 </div>

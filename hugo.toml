@@ -44,8 +44,8 @@ enableEmoji = true
 [languages]
 
   [languages.en]
-    locale = 'en-US'
-    label = 'EN'
+    languageCode = 'en-US'
+    languageName = 'EN'
     weight = 1
     title = 'Matvej Melikhov — Data Scientist & ML Engineer'
 
@@ -75,8 +75,8 @@ enableEmoji = true
       weight = 40
 
   [languages.ru]
-    locale = 'ru-RU'
-    label = 'RU'
+    languageCode = 'ru-RU'
+    languageName = 'RU'
     weight = 2
     title = 'Матвей Мелихов — Data Scientist & ML-инженер'
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Language.Locale }}" {{ if eq (default "light" (index (split (default "light" "") "") 0)) "dark" }}class="dark"{{ end }}>
+<html lang="{{ .Language.Lang }}" {{ if eq (default "light" (index (split (default "light" "") "") 0)) "dark" }}class="dark"{{ end }}>
 <head>
   {{- partial "head.html" . -}}
 </head>
