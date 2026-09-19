@@ -219,7 +219,7 @@ main { flex: 1; padding: 3rem; max-width: 1400px; margin: 0 auto; width: 100%; }
 /* Prose (Articles/Content) */
 .prose { 
   border: var(--border-width) solid var(--border-color); background: var(--card-bg); 
-  padding: 3.5rem; box-shadow: 8px 8px 0 var(--shadow-color); font-size: 1.15rem; 
+  padding: 3.5rem; box-shadow: 8px 8px 0 var(--shadow-color); font-size: 1.05rem; 
 }
 .prose h1, .prose h2, .prose h3 { margin-top: 2.5rem; margin-bottom: 1rem; color: var(--accent-1); }
 /* Brutalist wrapper for code */
@@ -348,7 +348,7 @@ main { flex: 1; padding: 3rem; max-width: 1400px; margin: 0 auto; width: 100%; }
   border: var(--border-width) solid var(--border-color);
   box-shadow: 8px 8px 0 var(--shadow-color);
 }
-.about-intro { font-size: 1.25rem; line-height: 1.6; }
+.about-intro { font-size: 1.1rem; line-height: 1.6; }
 .resume-button {
   display: inline-flex; align-items: center; gap: 0.5rem;
   padding: 0.75rem 1.5rem; margin-top: auto;
