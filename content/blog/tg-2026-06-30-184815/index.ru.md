@@ -3,7 +3,7 @@ title: "Моя первая статья в журнале"
 date: 2026-06-30T18:48:15
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/130"
-tg_media: ["/personal-site/images/posts/tg-2026-06-30-184815/photo_71@30-06-2026_18-48-15.jpg"]
+tg_media: ["/images/posts/tg-2026-06-30-184815/photo_71@30-06-2026_18-48-15.jpg"]
 ---
 
 Недавно моя первая [статья](https://www.internauka.org/journal/stud/herald/402) вышла в журнальчике. По мотивам ВКР (отдельно расскажу, думаю).

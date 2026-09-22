@@ -3,7 +3,7 @@ title: "🔥 AI Talent Hub: Day 1"
 date: 2026-09-02T04:13:03
 tags: ["telegram", "talenthub", "itmo"]
 tg_link: "https://t.me/moving_to_ds/140"
-tg_media: ["/personal-site/images/posts/tg-2026-09-02-041303/photo_77@02-09-2026_04-13-03.jpg", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3835.MP4", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3836.MP4", "/personal-site/images/posts/tg-2026-09-02-041303/photo_78@02-09-2026_04-13-03.jpg", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3829.MOV", "/personal-site/images/posts/tg-2026-09-02-041303/IMG_3830.MOV"]
+tg_media: ["/images/posts/tg-2026-09-02-041303/photo_77@02-09-2026_04-13-03.jpg", "/images/posts/tg-2026-09-02-041303/IMG_3835.MP4", "/images/posts/tg-2026-09-02-041303/IMG_3836.MP4", "/images/posts/tg-2026-09-02-041303/photo_78@02-09-2026_04-13-03.jpg", "/images/posts/tg-2026-09-02-041303/IMG_3829.MOV", "/images/posts/tg-2026-09-02-041303/IMG_3830.MOV"]
 ---
 
 Today was an ultra-eventful day. First, today was the first time I actually stepped **inside** ITMO (beyond the admissions office), and I was completely blown away: after LETI, it feels like you've walked into MIT. Everything is brand new, modern, and stylish. It gives off strong American movie vibes, Silicon Valley, and Apple tech.

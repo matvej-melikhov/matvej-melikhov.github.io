@@ -3,7 +3,7 @@ title: "I Listened to the Elon Musk Podcast So You Don't Have To"
 date: 2026-03-27T12:22:01
 tags: ["telegram", "interesting"]
 tg_link: "https://t.me/moving_to_ds/96"
-tg_media: ["/personal-site/images/posts/tg-2026-03-27-122201/photo_50@27-03-2026_12-30-08.jpg", "/personal-site/images/posts/tg-2026-03-27-122201/photo_51@27-03-2026_12-30-08.jpg"]
+tg_media: ["/images/posts/tg-2026-03-27-122201/photo_50@27-03-2026_12-30-08.jpg", "/images/posts/tg-2026-03-27-122201/photo_51@27-03-2026_12-30-08.jpg"]
 ---
 
 I hadn't followed his work in a while and, honestly, thought he had lost his mind. But this conversation genuinely inspired me. The way he thinks, the ambitious (and seemingly impossible) goals he sets — it's impressive. All of his ventures are at the bleeding edge of tech:

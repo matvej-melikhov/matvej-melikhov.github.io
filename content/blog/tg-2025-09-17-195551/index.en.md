@@ -3,7 +3,7 @@ title: "⚡️ 5 useful pandas functions I use often..."
 date: 2025-09-17T19:55:51
 tags: ["telegram", "python", "pandas"]
 tg_link: "https://t.me/moving_to_ds/39"
-tg_media: ["/personal-site/images/posts/tg-2025-09-17-195551/photo_18@17-09-2025_19-55-51.jpg", "/personal-site/images/posts/tg-2025-09-17-195551/photo_19@17-09-2025_19-55-51.jpg", "/personal-site/images/posts/tg-2025-09-17-195551/photo_20@17-09-2025_19-55-52.jpg", "/personal-site/images/posts/tg-2025-09-17-195551/photo_21@17-09-2025_19-55-52.jpg", "/personal-site/images/posts/tg-2025-09-17-195551/photo_22@17-09-2025_19-55-52.jpg", "/personal-site/images/posts/tg-2025-09-17-195551/photo_23@17-09-2025_19-55-52.jpg"]
+tg_media: ["/images/posts/tg-2025-09-17-195551/photo_18@17-09-2025_19-55-51.jpg", "/images/posts/tg-2025-09-17-195551/photo_19@17-09-2025_19-55-51.jpg", "/images/posts/tg-2025-09-17-195551/photo_20@17-09-2025_19-55-52.jpg", "/images/posts/tg-2025-09-17-195551/photo_21@17-09-2025_19-55-52.jpg", "/images/posts/tg-2025-09-17-195551/photo_22@17-09-2025_19-55-52.jpg", "/images/posts/tg-2025-09-17-195551/photo_23@17-09-2025_19-55-52.jpg"]
 ---
 
 ### 🐼 .loc[lambda]

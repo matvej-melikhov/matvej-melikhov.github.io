@@ -7,12 +7,12 @@ hidemeta: true
 
 <div class="about-container">
 <div class="about-header">
-<img src="/personal-site/images/profile.jpg" alt="Matvej Melikhov" class="profile-pic">
+<img src="/images/profile.jpg" alt="Matvej Melikhov" class="profile-pic">
 <div class="about-intro">
 <h1 class="about-name" style="margin-top: 0; margin-bottom: 1rem; font-size: clamp(2rem, 5vw, 3rem); line-height: 1;">Matvej Melikhov</h1>
 <p>Over 3 years of experience in ML/DS. I specialize in agent-based LLM systems, search, and recommendation/ranking tasks.</p>
 
-<button class="resume-button" onclick="if(window.innerWidth > 768) { document.getElementById('resume-modal').classList.add('active'); document.body.classList.add('modal-open'); } else { window.open('/personal-site/resume_en.pdf', '_blank'); }">
+<button class="resume-button" onclick="if(window.innerWidth > 768) { document.getElementById('resume-modal').classList.add('active'); document.body.classList.add('modal-open'); } else { window.open('/resume_en.pdf', '_blank'); }">
 <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
 View Resume
 </button>
@@ -168,6 +168,6 @@ View Resume
 <div id="resume-modal" class="modal-overlay" onclick="if(event.target === this) this.classList.remove('active'); document.body.classList.remove('modal-open')">
 <div class="modal-content">
 <button class="modal-close" onclick="document.getElementById('resume-modal').classList.remove('active'); document.body.classList.remove('modal-open')">✖</button>
-<iframe src="/personal-site/resume_en.pdf#view=FitH" width="100%" height="100%" frameborder="0"></iframe>
+<iframe src="/resume_en.pdf#view=FitH" width="100%" height="100%" frameborder="0"></iframe>
 </div>
 </div>

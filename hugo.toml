@@ -1,4 +1,4 @@
-baseURL = 'https://matvej-melikhov.github.io/personal-site/'
+baseURL = 'https://matvej-melikhov.github.io/'
 title = 'Matvej Melikhov'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false

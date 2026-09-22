@@ -3,7 +3,7 @@ title: "ML-хакатон от Wildberries & Russ"
 date: 2026-03-28T10:55:48
 tags: ["telegram", "анонсы"]
 tg_link: "https://t.me/moving_to_ds/99"
-tg_media: ["/personal-site/images/posts/tg-2026-03-28-105548/photo_52@28-03-2026_10-55-48.jpg"]
+tg_media: ["/images/posts/tg-2026-03-28-105548/photo_52@28-03-2026_10-55-48.jpg"]
 ---
 
 Там Wildberries & Russ [проводят ML-хакатон](https://wbspace.wb.ru/wildhack) с 25 марта по 13 апреля на собственной платформе. Соревнование по типу тех, что проходят на Kaggle. 

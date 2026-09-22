@@ -3,7 +3,7 @@ title: "Anthropic Is Removing Claude Code from Subscriptions"
 date: 2026-04-22T14:20:31
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/123"
-tg_media: ["/personal-site/images/posts/tg-2026-04-22-142031/photo_70@22-04-2026_14-20-31.jpg"]
+tg_media: ["/images/posts/tg-2026-04-22-142031/photo_70@22-04-2026_14-20-31.jpg"]
 ---
 
 And keeping it only at $100/$200. At least, these are the tiers displayed to new users.

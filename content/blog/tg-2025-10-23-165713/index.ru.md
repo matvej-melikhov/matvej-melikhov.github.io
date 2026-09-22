@@ -3,7 +3,7 @@ title: "🏦 Т-банк проводит митап по продуктовой
 date: 2025-10-23T16:57:13
 tags: ["telegram", "анонсы"]
 tg_link: "https://t.me/moving_to_ds/52"
-tg_media: ["/personal-site/images/posts/tg-2025-10-23-165713/photo_26@23-10-2025_16-57-13.jpg"]
+tg_media: ["/images/posts/tg-2025-10-23-165713/photo_26@23-10-2025_16-57-13.jpg"]
 ---
 
 🏦 Т-банк проводит [митап по продуктовой аналитике](https://meetup.tbank.ru/event/t-meetup-product-analytics). В Санкт-Петербурге!

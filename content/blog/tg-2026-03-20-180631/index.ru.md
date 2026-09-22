@@ -3,7 +3,7 @@ title: "💎 Claude Code: Channels"
 date: 2026-03-20T18:06:31
 tags: ["telegram", "claude_code", "news", "вайбкодинг"]
 tg_link: "https://t.me/moving_to_ds/84"
-tg_media: ["/personal-site/images/posts/tg-2026-03-20-180631/photo_40@20-03-2026_18-06-31.jpg"]
+tg_media: ["/images/posts/tg-2026-03-20-180631/photo_40@20-03-2026_18-06-31.jpg"]
 ---
 
 Anthropic выкатили **Channels** для Claude Code – можно управлять сессией из Telegram или Discord.

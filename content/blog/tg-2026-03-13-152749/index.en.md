@@ -3,7 +3,7 @@ title: "⚡️ AlphaXiv Launched Paperscrolling – a Feed of ..."
 date: 2026-03-13T15:27:49
 tags: ["telegram", "articles"]
 tg_link: "https://t.me/moving_to_ds/69"
-tg_media: ["/personal-site/images/posts/tg-2026-03-13-152749/IMG_2442.MP4"]
+tg_media: ["/images/posts/tg-2026-03-13-152749/IMG_2442.MP4"]
 ---
 
 ⚡️ AlphaXiv has launched [Paperscrolling](https://www.alphaxiv.org/briefs) — a feed featuring the most interesting and relevant scientific research.

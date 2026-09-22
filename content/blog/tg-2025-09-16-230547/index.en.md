@@ -3,7 +3,7 @@ title: "How ECODE 2025 went"
 date: 2025-09-16T23:05:47
 tags: ["telegram", "meetup"]
 tg_link: "https://t.me/moving_to_ds/34"
-tg_media: ["/personal-site/images/posts/tg-2025-09-16-230547/photo_13@16-09-2025_23-05-47.jpg", "/personal-site/images/posts/tg-2025-09-16-230547/photo_14@16-09-2025_23-05-47.jpg", "/personal-site/images/posts/tg-2025-09-16-230547/photo_15@16-09-2025_23-05-47.jpg", "/personal-site/images/posts/tg-2025-09-16-230547/photo_16@16-09-2025_23-05-47.jpg", "/personal-site/images/posts/tg-2025-09-16-230547/photo_17@16-09-2025_23-05-47.jpg"]
+tg_media: ["/images/posts/tg-2025-09-16-230547/photo_13@16-09-2025_23-05-47.jpg", "/images/posts/tg-2025-09-16-230547/photo_14@16-09-2025_23-05-47.jpg", "/images/posts/tg-2025-09-16-230547/photo_15@16-09-2025_23-05-47.jpg", "/images/posts/tg-2025-09-16-230547/photo_16@16-09-2025_23-05-47.jpg", "/images/posts/tg-2025-09-16-230547/photo_17@16-09-2025_23-05-47.jpg"]
 ---
 
 This year I attended both days and I can say that, at the moment, it is probably **the top free IT conference**. Awesome speakers from Russian big tech, truly engaging talks across various fields, lots of great people (as it turns out, over **5,000** people attended over the two days!), entertainment, prizes, food, and drinks — in short, everything was top-notch, with an incredible atmosphere 🔥

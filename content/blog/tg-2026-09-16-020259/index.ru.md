@@ -3,7 +3,7 @@ title: "ECODE 2026"
 date: 2026-09-16T02:02:59
 tags: ["telegram", "meetup", "ecode"]
 tg_link: "https://t.me/moving_to_ds/155"
-tg_media: ["/personal-site/images/posts/tg-2026-09-16-020259/photo_85@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/photo_86@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/photo_87@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/photo_88@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/photo_89@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/photo_90@16-09-2026_02-02-59.jpg", "/personal-site/images/posts/tg-2026-09-16-020259/IMG_3930.MOV", "/personal-site/images/posts/tg-2026-09-16-020259/IMG_3979.MOV", "/personal-site/images/posts/tg-2026-09-16-020259/IMG_4029.MOV"]
+tg_media: ["/images/posts/tg-2026-09-16-020259/photo_85@16-09-2026_02-02-59.jpg", "/images/posts/tg-2026-09-16-020259/photo_86@16-09-2026_02-02-59.jpg", "/images/posts/tg-2026-09-16-020259/photo_87@16-09-2026_02-02-59.jpg", "/images/posts/tg-2026-09-16-020259/photo_88@16-09-2026_02-02-59.jpg", "/images/posts/tg-2026-09-16-020259/photo_89@16-09-2026_02-02-59.jpg", "/images/posts/tg-2026-09-16-020259/photo_90@16-09-2026_02-02-59.jpg", "/images/posts/tg-2026-09-16-020259/IMG_3930.MOV", "/images/posts/tg-2026-09-16-020259/IMG_3979.MOV", "/images/posts/tg-2026-09-16-020259/IMG_4029.MOV"]
 ---
 
 

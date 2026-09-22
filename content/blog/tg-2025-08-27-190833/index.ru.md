@@ -3,7 +3,7 @@ title: "⚡️ Линейная регрессия – наверное, сам�
 date: 2025-08-27T19:08:33
 tags: ["telegram", "теория", "линейная_регрессия"]
 tg_link: "https://t.me/moving_to_ds/16"
-tg_media: ["/personal-site/images/posts/tg-2025-08-27-190833/photo_1@27-08-2025_19-08-33.jpg", "/personal-site/images/posts/tg-2025-08-27-190833/photo_2@27-08-2025_19-08-33.jpg", "/personal-site/images/posts/tg-2025-08-27-190833/photo_3@27-08-2025_19-08-33.jpg", "/personal-site/images/posts/tg-2025-08-27-190833/photo_4@27-08-2025_19-08-33.jpg", "/personal-site/images/posts/tg-2025-08-27-190833/photo_5@27-08-2025_19-08-33.jpg", "/personal-site/images/posts/tg-2025-08-27-190833/photo_6@27-08-2025_19-08-33.jpg"]
+tg_media: ["/images/posts/tg-2025-08-27-190833/photo_1@27-08-2025_19-08-33.jpg", "/images/posts/tg-2025-08-27-190833/photo_2@27-08-2025_19-08-33.jpg", "/images/posts/tg-2025-08-27-190833/photo_3@27-08-2025_19-08-33.jpg", "/images/posts/tg-2025-08-27-190833/photo_4@27-08-2025_19-08-33.jpg", "/images/posts/tg-2025-08-27-190833/photo_5@27-08-2025_19-08-33.jpg", "/images/posts/tg-2025-08-27-190833/photo_6@27-08-2025_19-08-33.jpg"]
 ---
 
 ⚡️ **Линейная регрессия** – наверное, самый базовый алгоритм в машинном обучении. Однако обычно мало внимания уделяется ее аналитическому решению.

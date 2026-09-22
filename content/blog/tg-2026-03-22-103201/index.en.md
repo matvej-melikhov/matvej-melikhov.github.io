@@ -3,7 +3,7 @@ title: "Yesterday I Went to Yandex's Saturday ML Party 🪩"
 date: 2026-03-22T10:32:01
 tags: ["telegram", "meetup"]
 tg_link: "https://t.me/moving_to_ds/85"
-tg_media: ["/personal-site/images/posts/tg-2026-03-22-103201/photo_41@22-03-2026_10-32-01.jpg", "/personal-site/images/posts/tg-2026-03-22-103201/photo_42@22-03-2026_10-32-01.jpg", "/personal-site/images/posts/tg-2026-03-22-103201/photo_43@22-03-2026_10-32-01.jpg", "/personal-site/images/posts/tg-2026-03-22-103201/photo_44@22-03-2026_10-32-01.jpg", "/personal-site/images/posts/tg-2026-03-22-103201/photo_45@22-03-2026_10-32-01.jpg", "/personal-site/images/posts/tg-2026-03-22-103201/photo_46@22-03-2026_10-32-01.jpg", "/personal-site/images/posts/tg-2026-03-22-103201/photo_47@22-03-2026_10-32-01.jpg", "/personal-site/images/posts/tg-2026-03-22-103201/photo_48@22-03-2026_10-32-01.jpg", "/personal-site/images/posts/tg-2026-03-22-103201/photo_49@22-03-2026_10-32-01.jpg"]
+tg_media: ["/images/posts/tg-2026-03-22-103201/photo_41@22-03-2026_10-32-01.jpg", "/images/posts/tg-2026-03-22-103201/photo_42@22-03-2026_10-32-01.jpg", "/images/posts/tg-2026-03-22-103201/photo_43@22-03-2026_10-32-01.jpg", "/images/posts/tg-2026-03-22-103201/photo_44@22-03-2026_10-32-01.jpg", "/images/posts/tg-2026-03-22-103201/photo_45@22-03-2026_10-32-01.jpg", "/images/posts/tg-2026-03-22-103201/photo_46@22-03-2026_10-32-01.jpg", "/images/posts/tg-2026-03-22-103201/photo_47@22-03-2026_10-32-01.jpg", "/images/posts/tg-2026-03-22-103201/photo_48@22-03-2026_10-32-01.jpg", "/images/posts/tg-2026-03-22-103201/photo_49@22-03-2026_10-32-01.jpg"]
 ---
 
 An awesome event. This is my second year attending; Yandex's production quality is top-notch, gotta say. They and Ozon host the best conferences (among the free ones).

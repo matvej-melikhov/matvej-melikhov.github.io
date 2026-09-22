@@ -3,7 +3,7 @@ title: "💎 Junior ML Contest"
 date: 2026-07-01T04:57:29
 tags: ["telegram", "ai_talent_hub", "jmlc", "itmo"]
 tg_link: "https://t.me/moving_to_ds/131"
-tg_media: ["/personal-site/images/posts/tg-2026-07-01-045729/photo_72@01-07-2026_04-57-29.jpg"]
+tg_media: ["/images/posts/tg-2026-07-01-045729/photo_72@01-07-2026_04-57-29.jpg"]
 ---
 
 I applied to JMLC – one of the admission tracks for ITMO's [AI Talent Hub](https://ai.itmo.ru/).

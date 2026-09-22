@@ -3,7 +3,7 @@ title: "Tesla закрывает производство model S и model X"
 date: 2026-04-09T14:43:00
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/108"
-tg_media: ["/personal-site/images/posts/tg-2026-04-09-144300/photo_59@09-04-2026_14-43-00.jpg"]
+tg_media: ["/images/posts/tg-2026-04-09-144300/photo_59@09-04-2026_14-43-00.jpg"]
 ---
 
 Под что освободили заводы?

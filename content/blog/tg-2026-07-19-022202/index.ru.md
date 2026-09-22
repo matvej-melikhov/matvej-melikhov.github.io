@@ -3,7 +3,7 @@ title: "Magic Studio"
 date: 2026-07-19T02:22:02
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/136"
-tg_media: ["/personal-site/images/posts/tg-2026-07-19-022202/photo_75@19-07-2026_02-22-02.jpg", "/personal-site/images/posts/tg-2026-07-19-022202/photo_76@19-07-2026_02-22-02.jpg"]
+tg_media: ["/images/posts/tg-2026-07-19-022202/photo_75@19-07-2026_02-22-02.jpg", "/images/posts/tg-2026-07-19-022202/photo_76@19-07-2026_02-22-02.jpg"]
 ---
 
         

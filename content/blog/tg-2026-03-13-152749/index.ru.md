@@ -3,7 +3,7 @@ title: "⚡️ AlphaXiv запустили Paperscrolling – ленту с ..."
 date: 2026-03-13T15:27:49
 tags: ["telegram", "статьи"]
 tg_link: "https://t.me/moving_to_ds/69"
-tg_media: ["/personal-site/images/posts/tg-2026-03-13-152749/IMG_2442.MP4"]
+tg_media: ["/images/posts/tg-2026-03-13-152749/IMG_2442.MP4"]
 ---
 
 ⚡️ AlphaXiv запустили [Paperscrolling](https://www.alphaxiv.org/briefs) – ленту с самыми интересными и актуальными научными исследованиями.

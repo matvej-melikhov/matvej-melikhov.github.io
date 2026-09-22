@@ -3,7 +3,7 @@ title: "Одобрили заявку на Ozon E-CODE 2026!"
 date: 2026-07-16T00:13:02
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/135"
-tg_media: ["/personal-site/images/posts/tg-2026-07-16-001302/photo_74@16-07-2026_00-13-02.jpg"]
+tg_media: ["/images/posts/tg-2026-07-16-001302/photo_74@16-07-2026_00-13-02.jpg"]
 ---
 
 Одобрили заявку на [**Ozon E-CODE 2026**](https://ecode.ozon.tech/)!

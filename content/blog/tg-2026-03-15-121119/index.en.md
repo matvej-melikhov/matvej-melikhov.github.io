@@ -3,7 +3,7 @@ title: "⚡️ Useful Git Commands"
 date: 2026-03-15T12:11:19
 tags: ["telegram", "useful", "git"]
 tg_link: "https://t.me/moving_to_ds/72"
-tg_media: ["/personal-site/images/posts/tg-2026-03-15-121119/photo_34@15-03-2026_12-11-19.jpg", "/personal-site/images/posts/tg-2026-03-15-121119/photo_35@15-03-2026_12-11-19.jpg", "/personal-site/images/posts/tg-2026-03-15-121119/photo_36@15-03-2026_12-11-19.jpg", "/personal-site/images/posts/tg-2026-03-15-121119/photo_37@15-03-2026_12-11-19.jpg", "/personal-site/images/posts/tg-2026-03-15-121119/photo_38@15-03-2026_12-11-19.jpg"]
+tg_media: ["/images/posts/tg-2026-03-15-121119/photo_34@15-03-2026_12-11-19.jpg", "/images/posts/tg-2026-03-15-121119/photo_35@15-03-2026_12-11-19.jpg", "/images/posts/tg-2026-03-15-121119/photo_36@15-03-2026_12-11-19.jpg", "/images/posts/tg-2026-03-15-121119/photo_37@15-03-2026_12-11-19.jpg", "/images/posts/tg-2026-03-15-121119/photo_38@15-03-2026_12-11-19.jpg"]
 ---
 
 - ✨ git stash / git stash pop

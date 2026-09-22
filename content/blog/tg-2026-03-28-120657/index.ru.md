@@ -3,7 +3,7 @@ title: "В пятницу был на митапе ODS в гостях у Select
 date: 2026-03-28T12:06:57
 tags: ["telegram", "meetup"]
 tg_link: "https://t.me/moving_to_ds/102"
-tg_media: ["/personal-site/images/posts/tg-2026-03-28-120657/photo_55@28-03-2026_12-06-57.jpg", "/personal-site/images/posts/tg-2026-03-28-120657/photo_56@28-03-2026_12-06-57.jpg", "/personal-site/images/posts/tg-2026-03-28-120657/photo_57@28-03-2026_12-06-57.jpg", "/personal-site/images/posts/tg-2026-03-28-120657/photo_58@28-03-2026_12-06-57.jpg"]
+tg_media: ["/images/posts/tg-2026-03-28-120657/photo_55@28-03-2026_12-06-57.jpg", "/images/posts/tg-2026-03-28-120657/photo_56@28-03-2026_12-06-57.jpg", "/images/posts/tg-2026-03-28-120657/photo_57@28-03-2026_12-06-57.jpg", "/images/posts/tg-2026-03-28-120657/photo_58@28-03-2026_12-06-57.jpg"]
 ---
 
 Я впервые **вживую** встретился сразу с 3 коллегами, причем двое из них из моей команды HML:NLP&Sound – Лёша и Аня. Аня, кстати, выступала с докладом про Text2Speech модели.

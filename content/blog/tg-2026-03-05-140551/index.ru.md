@@ -3,7 +3,7 @@ title: "Геймифицированный челлендж по ML/DS от Ав
 date: 2026-03-05T14:05:51
 tags: ["telegram", "анонсы"]
 tg_link: "https://t.me/moving_to_ds/62"
-tg_media: ["/personal-site/images/posts/tg-2026-03-05-140551/photo_32@05-03-2026_14-05-51.jpg"]
+tg_media: ["/images/posts/tg-2026-03-05-140551/photo_32@05-03-2026_14-05-51.jpg"]
 ---
 
 Тут Авито запустили [геймифицированный челлендж по ML/DS](https://dsgame.avito.tech/), где можно проверить знания, вспомнить основы и вроде даже повеселиться.

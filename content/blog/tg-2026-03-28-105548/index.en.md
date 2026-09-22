@@ -3,7 +3,7 @@ title: "ML Hackathon from Wildberries & Russ"
 date: 2026-03-28T10:55:48
 tags: ["telegram", "announcements"]
 tg_link: "https://t.me/moving_to_ds/99"
-tg_media: ["/personal-site/images/posts/tg-2026-03-28-105548/photo_52@28-03-2026_10-55-48.jpg"]
+tg_media: ["/images/posts/tg-2026-03-28-105548/photo_52@28-03-2026_10-55-48.jpg"]
 ---
 
 Wildberries & Russ are [hosting an ML hackathon](https://wbspace.wb.ru/wildhack) from March 25 to April 13 on their own platform. A Kaggle-style competition. 

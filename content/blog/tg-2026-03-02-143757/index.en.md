@@ -3,7 +3,7 @@ title: "OpenRouter 🎆"
 date: 2026-03-02T14:37:57
 tags: ["telegram", "useful"]
 tg_link: "https://t.me/moving_to_ds/55"
-tg_media: ["/personal-site/images/posts/tg-2026-03-02-143757/photo_27@02-03-2026_14-37-57.jpg"]
+tg_media: ["/images/posts/tg-2026-03-02-143757/photo_27@02-03-2026_14-37-57.jpg"]
 ---
 
 Most people have probably already heard of this service. I've known about it for a long time, but never really had the occasion to use it until recently.

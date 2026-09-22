@@ -3,7 +3,7 @@ title: "Хорошего вечера пятницы! 👋"
 date: 2025-09-05T18:37:37
 tags: ["telegram"]
 tg_link: "https://t.me/moving_to_ds/28"
-tg_media: ["/personal-site/images/posts/tg-2025-09-05-183737/photo_11@05-09-2025_18-37-37.jpg"]
+tg_media: ["/images/posts/tg-2025-09-05-183737/photo_11@05-09-2025_18-37-37.jpg"]
 ---
 
 На следующих выходных, 13–14 сентября, в Москве, пройдет масштабная конференция [Ozon E-Code25](https://ecode.ozon.tech/) ⚡️. Программа обещает быть очень насыщенной! 

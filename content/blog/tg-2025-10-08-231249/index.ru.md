@@ -3,7 +3,7 @@ title: "🐍 Python 3.14 вышел! Расставил нововведения
 date: 2025-10-08T23:12:49
 tags: ["telegram", "python"]
 tg_link: "https://t.me/moving_to_ds/49"
-tg_media: ["/personal-site/images/posts/tg-2025-10-08-231249/photo_24@08-10-2025_23-12-49.jpg"]
+tg_media: ["/images/posts/tg-2025-10-08-231249/photo_24@08-10-2025_23-12-49.jpg"]
 ---
 
 - 1️⃣ **Официальная поддержка free-threaded сборки Python**
